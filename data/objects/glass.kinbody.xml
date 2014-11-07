@@ -1,0 +1,16 @@
+<KinBody name="glass">
+  <Body  type="static" name="glass">
+    <Geom type="trimesh">
+      <!--<Data>glass.iv</Data>-->
+      <Render>glass.stl</Render>
+      <Data>glass.stl</Data>
+    </Geom>      
+  </Body>
+  <orcdchomp>
+    <spheres>
+      <sphere link="glass" pos=" 0.0 0.0 0.0365124978125 " radius="0.0628754198551" />
+      <sphere link="glass" pos=" 0.0 0.0 0.109537493438 " radius="0.0628754198551" />
+      <sphere link="glass" pos=" 0.0 0.0 0.182562489063 " radius="0.0628754198551" />
+    </spheres>
+  </orcdchomp>  
+</KinBody>

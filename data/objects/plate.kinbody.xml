@@ -1,0 +1,13 @@
+<KinBody name="plate">
+  <Body type="static" name="plate">
+    <Geom type="trimesh">
+      <Data>plate.stl</Data>
+      <Render>plate.stl</Render>
+    </Geom>      
+  </Body>
+ <orcdchomp>
+	<spheres>
+		<sphere link="plate" pos=" 0.0 0.0 5.02914190292" radius="0.0974933579564" />
+	</spheres>
+ </orcdchomp>
+</KinBody>
