@@ -1,0 +1,13 @@
+<package>
+    <description brief="OpenRAVE data used by the Personal Robotics Lab at CMU.">
+        The pr_ordata package provides OpenRAVE-specific environments, meshes,
+        articulated bodies, robots, and database files used by the Personal
+        Robotics Lab at Carnegie Mellon University.
+    </description>
+    <author>Michael Koval</author>
+    <license>BSD</license>
+    <review status="released" notes="approved on 3/13"/>
+    <export>
+        <openrave data="${prefix}/data"/>
+    </export>
+</package>
