@@ -1,0 +1,150 @@
+<KinBody name="bookcase">
+  <!-- 
+       Expedit shelving unit - Birch effect
+       IKEA #501.030.86 
+    -->
+  <Translation>0.0 0.745 0.0</Translation>
+  <Body name="bookcase" type="static">
+    <!-- Side walls -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.025 0.695 0.195</Extents>
+      <Translation>-0.368 0.0 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.025 0.695 0.195</Extents>
+      <Translation>0.368 0.0 0.0</Translation>
+    </Geom>
+    <!-- Top and bottom walls -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.394 0.025 0.196</Extents>
+      <Translation>0.0 -0.72 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.394 0.025 0.196</Extents>
+      <Translation>0.0 0.72 0.0</Translation>
+    </Geom>
+    <!-- Horizontal shelf inserts -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.343 0.0075 0.194</Extents>
+      <Translation>0.0 0.35125 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.343 0.0075 0.194</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.343 0.0075 0.194</Extents>
+      <Translation>0.0 -0.35125 0.0</Translation>
+    </Geom>
+    <!-- Vertical shelf inserts -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0075 0.168125 0.193</Extents>
+      <Translation>0.0 0.175625 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0075 0.168125 0.193</Extents>
+      <Translation>0.0 -0.175625 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0075 0.168125 0.193</Extents>
+      <Translation>0.0 -0.526875 0.0</Translation>
+    </Geom>
+  </Body>
+
+  <Body name="padding_bookcase" type="static">
+    <!-- Side walls -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.075 0.745 0.245</Extents>
+      <Translation>-0.368 0.0 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.075 0.745 0.245</Extents>
+      <Translation>0.368 0.0 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <!-- Top and bottom walls -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.444 0.075 0.246</Extents>
+      <Translation>0.0 -0.72 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.444 0.075 0.246</Extents>
+      <Translation>0.0 0.72 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <!-- Horizontal shelf inserts -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.393 0.0575 0.244</Extents>
+      <Translation>0.0 0.35125 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.393 0.0575 0.244</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.393 0.0575 0.244</Extents>
+      <Translation>0.0 -0.35125 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <!-- Vertical shelf inserts -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0575 0.218125 0.243</Extents>
+      <Translation>0.0 0.175625 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0575 0.218125 0.243</Extents>
+      <Translation>0.0 -0.175625 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.968 0.901 0.709</AmbientColor>
+      <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
+      <Extents>0.0575 0.218125 0.243</Extents>
+      <Translation>0.0 -0.526875 0.0</Translation>
+      <Transparency>1.0</Transparency>
+    </Geom>    
+  </Body>
+</KinBody>

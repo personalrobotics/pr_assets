@@ -1,0 +1,15 @@
+<KinBody name="bookcase_wheels">
+  <!-- 
+       Expedit bookshelf with casters
+    -->
+  <ModelsDir>.</ModelsDir>
+  <KinBody file="bookcase.kinbody.xml">
+    <Translation>0.0 0.1125 0.0</Translation> 
+  </KinBody>
+  <KinBody prefix="l_" file="wheels.kinbody.xml">
+    <Translation>0.369 0.1125 0.0</Translation> 
+  </KinBody>
+  <KinBody prefix="r_" file="wheels.kinbody.xml">
+    <Translation>-0.369 0.1125 0.0</Translation>
+  </KinBody>
+</KinBody>

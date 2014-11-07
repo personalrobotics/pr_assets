@@ -1,0 +1,88 @@
+<KinBody name="wheels">
+  <!-- 
+       Expedit set of casters - silver color
+       IKEA #601.699.77
+    -->
+  <Body type="static" name="caster_rail">
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.02 0.0025 0.24</Extents>
+      <Translation>-0.0 -0.0025 0.0</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.01 0.015 0.00125</Extents>
+      <Translation>0.0 0.015 0.19625</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.01 0.015 0.00125</Extents>
+      <Translation>0.0 0.015 -0.19625</Translation>
+    </Geom>
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Radius>0.02</Radius>
+      <Height>0.015</Height>
+      <Translation>0.0 -0.0125 0.22</Translation>
+    </Geom>
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Radius>0.02</Radius>
+      <Height>0.015</Height>
+      <Translation>0.0 -0.0125 -0.22</Translation>
+    </Geom>
+  </Body>
+  <Body type="static" name="front_caster">
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>1.0 1.0 1.0</AmbientColor>
+      <DiffuseColor>1.0 1.0 1.0</DiffuseColor>
+      <Radius>0.035</Radius>
+      <Height>0.026</Height>
+      <Translation>0.0 -0.075 -0.24</Translation>
+      <RotationAxis>0.0 0.0 1.0 90.0</RotationAxis>
+    </Geom>
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>0.5 0.5 0.5</AmbientColor>
+      <DiffuseColor>0.5 0.5 0.5</DiffuseColor>
+      <Radius>0.0375</Radius>
+      <Height>0.025</Height>
+      <Translation>0.0 -0.075 -0.24</Translation>
+      <RotationAxis>0.0 0.0 1.0 90.0</RotationAxis>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.015 0.025 0.025</Extents>
+      <Translation>0.0 -0.045 -0.22</Translation>
+    </Geom>
+  </Body>
+  <Body type="static" name="rear_caster">
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>1.0 1.0 1.0</AmbientColor>
+      <DiffuseColor>1.0 1.0 1.0</DiffuseColor>
+      <Radius>0.035</Radius>
+      <Height>0.026</Height>
+      <Translation>0.0 -0.075 0.24</Translation>
+      <RotationAxis>0.0 0.0 1.0 90.0</RotationAxis>
+    </Geom>
+    <Geom type="cylinder" modifiable="false">
+      <AmbientColor>0.5 0.5 0.5</AmbientColor>
+      <DiffuseColor>0.5 0.5 0.5</DiffuseColor>
+      <Radius>0.0375</Radius>
+      <Height>0.025</Height>
+      <Translation>0.0 -0.075 0.24</Translation>
+      <RotationAxis>0.0 0.0 1.0 90.0</RotationAxis>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.015 0.025 0.025</Extents>
+      <Translation>0.0 -0.045 0.22</Translation>
+    </Geom>
+  </Body>
+</KinBody>
