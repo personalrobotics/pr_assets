@@ -11,4 +11,5 @@
   <maintainer email="mkoval@cs.cmu.edu">Michael Koval</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>openrave_catkin</build_depend>
 </package>
