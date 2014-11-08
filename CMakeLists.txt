@@ -1,19 +1,18 @@
-#
-# Personal Robotics Laboratory
-# Catkin/Rosbuild Switching Template
-#
-# This CMakeLists.txt file is designed to correctly switch two CMakeLists,
-# one for rosbuild and one for catkin.
-#
-# To use this file, create two CMakeLists:
-#   - catkin.cmake : the CMakeLists used in ROS catkin builds
-#   - rosbuild.cmake : the CMakeLists used for ROS rosbuild builds
-#
 cmake_minimum_required(VERSION 2.8.3)
-project(prpy)
- 
-if (DEFINED CATKIN_TOPLEVEL OR (NOT ("$ENV{ROS_DISTRO}" STREQUAL "fuerte")))
-    include(${PROJECT_SOURCE_DIR}/catkin.cmake)
-else ()
-    include(${PROJECT_SOURCE_DIR}/rosbuild.cmake)
-endif ()
+project(pr_ordata)
+
+find_package(catkin REQUIRED COMPONENTS openrave_catkin)
+catkin_package()
+
+add_custom_target(${PROJECT_NAME}_data ALL
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+            "${PROJECT_SOURCE_DIR}/data"
+            "${OpenRAVE_DEVEL_DIR}/${OpenRAVE_DATA_DIR}"
+)
+
+# The trailing slash is necessary to prevent CMake from creating a "data"
+# directory inside DESTINATION.
+# See: http://www.cmake.org/cmake/help/v3.0/command/install.html
+install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/"
+    DESTINATION "${OpenRAVE_INSTALL_DIR}/${OpenRAVE_DATA_DIR}"
+)
