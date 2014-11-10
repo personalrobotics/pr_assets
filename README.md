@@ -45,21 +45,21 @@ The approximation is necessary to plan with
 grasped. Specifying a non-conservative approximation may cause CHOMP to return
 infeasible trajectories.
 
-## Naming Convention
+## Model Creation Guidelines
 
-We follow this naming convention for models of rigid bodies. Note that some
-models (e.g. un-textured objects, primitive collision geometry) may only
-require a subset of these files:
+We follow this naming convention for models of rigid bodies:
 
-- `model_name.kinbody.xml`: OpenRAVE object model
-- `model_name_collision.stl`: collision geometry
-- `model_name_visual.dae`: visual geometry
-- `model_name_visual_0.jpg`: textures for visual geometry
+- `model_name.kinbody.xml`: OpenRAVE [KinBody specification](http://openrave.programmingvision.com/wiki/index.php/Format:XML)
+- `model_name_collision.stl`: collision geometry (as small as possible)
+- `model_name_visual.dae`: visual geometry; medium resolution (< 500 kB)
+- `model_name_visual_0.jpg`: textures for visual geometry (< 500 kB)
 - `model_name_scan.dae`: raw model produced by the 3D scanner
 - `model_name_scan_0.jpg`: raw texture produced by the 3D model
 
-We do not have a strict naming convention for articulated bodies. However,
-please try your best to stay consistent with the existing models.
+Note that some models (e.g. un-textured objects, primitive collision geometry)
+may only require a subset of these files. Additionally, we do not have a strict
+naming convention for articulated bodies. Please try your best to stay
+consistent with the existing models.
 
 ## Contributors
 
