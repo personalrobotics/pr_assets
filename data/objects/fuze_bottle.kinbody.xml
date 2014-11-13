@@ -1,0 +1,12 @@
+<KinBody name="fuze_bottle">
+  <Body type="dynamic" name="fuze_bottle">
+    <Geom type="sphere" modifiable="false">
+      <Render>fuze_bottle_visual.dae</Render>
+      <Radius>0</Radius>
+    </Geom>      
+    <Geom type="trimesh" modifiable="false" render="false">
+        <Data>fuze_bottle_collision.stl 0.1</Data>
+    </Geom>
+    <!-- TODO: Add a sphere approximation. -->
+  </Body>
+</KinBody>
