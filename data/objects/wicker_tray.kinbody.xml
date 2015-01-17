@@ -1,0 +1,8 @@
+<KinBody name="wicker_tray">
+  <Body type="static" name="wicker_tray">
+    <Geom type="trimesh">
+      <Render>wicker_tray_visual.dae</Render>
+      <Data>wicker_tray_collision.stl</Data>
+    </Geom>      
+  </Body>
+</KinBody>

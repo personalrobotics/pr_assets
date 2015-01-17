@@ -1,0 +1,8 @@
+<KinBody name="plastic_plate">
+  <Body type="static" name="plastic_plate">
+    <Geom type="trimesh">
+      <Render>plastic_plate_visual.dae</Render>
+      <Data>plastic_plate_collision.stl</Data>
+    </Geom>      
+  </Body>
+</KinBody>
