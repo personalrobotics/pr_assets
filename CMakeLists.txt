@@ -3,6 +3,7 @@ project(pr_ordata)
 
 find_package(catkin REQUIRED COMPONENTS openrave_catkin)
 catkin_package()
+#catkin_python_setup()
 
 add_custom_target(${PROJECT_NAME}_data ALL
     COMMAND ${CMAKE_COMMAND} -E copy_directory
