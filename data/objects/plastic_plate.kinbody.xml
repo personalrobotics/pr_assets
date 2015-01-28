@@ -5,4 +5,9 @@
       <Data>plastic_plate_collision.stl</Data>
     </Geom>      
   </Body>
+  <orcdchomp>
+	<spheres>
+		<sphere link="plastic_plate" pos=" 0.0 0.0 5.02914190292" radius="0.0974933579564" />
+	</spheres>
+  </orcdchomp>
 </KinBody>
