@@ -4,12 +4,9 @@
       <Render>plastic_bowl_visual.dae</Render>
       <Data>plastic_bowl_collision.stl</Data>
     </Geom>      
+    <Geom type="sphere" group="spheres">
+      <Translation> 0.0 0.0 0.0 </Translation>
+      <Radius>0.086</Radius>
+    </Geom>      
   </Body>
-  <orcdchomp>
-    <spheres>
-      <sphere link="plastic_bowl" pos=" 0.0 0.0 0.0365124978125 " radius="0.0628754198551" />
-      <sphere link="plastic_bowl" pos=" 0.0 0.0 0.109537493438 " radius="0.0628754198551" />
-      <sphere link="plastic_bowl" pos=" 0.0 0.0 0.182562489063 " radius="0.0628754198551" />
-    </spheres>
-  </orcdchomp> 
 </KinBody>
