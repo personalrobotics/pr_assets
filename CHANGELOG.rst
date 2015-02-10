@@ -2,8 +2,8 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2015-02-10)
+------------------
 * Adding padding to tray edges. Updating tag location on tray
 * Adding chomp spheres. These are copied from bowl.kinbody.xml, glass.kinbody.xml and plate.kinbody.xml. Need proper verification.
 * adding plastic plate bowl cup and wicker tray
