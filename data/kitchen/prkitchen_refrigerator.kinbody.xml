@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<KinBody name="prkitchen_refrigerator">
+    <Body name="refrigerator_base" type="dynamic">
+        <Mass>
+            <total>273.61987092060701</total>
+            <inertia>99.111847 0.008198 -0.774141 0.008198 93.801788 0.019086 -0.774141 0.019086 29.515170</inertia>
+            <com>-0.051402 0.000081 0.781178</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/refrigerator_base.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/refrigerator_base.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="door_lower" type="dynamic">
+        <offsetfrom>refrigerator_base</offsetfrom>
+        <translation>0.383540 0.335756 1.644650</translation>
+        <quat>1.000000 0.000000 -0.000000 0.000000</quat>
+        <Mass>
+            <total>40.515218209219299</total>
+            <inertia>5.686269 -0.000001 -0.000001 -0.000001 3.885282 -0.000160 -0.000001 -0.000160 1.822760</inertia>
+            <com>-0.001818 -0.336558 -1.035970</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_lower.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_lower.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="door_upper" type="dynamic">
+        <offsetfrom>refrigerator_base</offsetfrom>
+        <translation>0.383540 0.335756 1.644650</translation>
+        <quat>1.000000 0.000000 -0.000000 0.000000</quat>
+        <Mass>
+            <total>18.798530493488101</total>
+            <inertia>1.211705 -0.000001 0.000001 -0.000001 0.382947 0.000073 0.000001 0.000073 0.839601</inertia>
+            <com>-0.002549 -0.336566 -0.252515</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_upper.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_upper.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="lower_handle" type="dynamic">
+        <offsetfrom>door_lower</offsetfrom>
+        <translation>-0.383540 -0.335756 -1.644650</translation>
+        <quat>1.000000 -0.000000 0.000000 -0.000000</quat>
+        <Mass>
+            <total>0.19493649242215999</total>
+            <inertia>0.003108 -0.000000 -0.000000 -0.000000 0.003127 0.000000 -0.000000 0.000000 0.000042</inertia>
+            <com>0.437072 -0.307626 0.923811</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/lower_handle.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/lower_handle.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="upper_handle" type="dynamic">
+        <offsetfrom>door_upper</offsetfrom>
+        <translation>-0.383540 -0.335756 -1.644650</translation>
+        <quat>1.000000 -0.000000 0.000000 -0.000000</quat>
+        <Mass>
+            <total>0.19493649242216099</total>
+            <inertia>0.003108 0.000000 0.000000 0.000000 0.003127 0.000000 0.000000 0.000000 0.000042</inertia>
+            <com>0.437072 -0.307626 1.365136</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Joint name="door_lower" type="hinge" enable="true">
+        <Body>refrigerator_base</Body>
+        <Body>door_lower</Body>
+        <offsetfrom>refrigerator_base</offsetfrom>
+        <anchor>0.383540 0.335756 1.644650</anchor>
+        <axis>-0.000000 -0.000000 1.000000</axis>
+        <maxvel>0</maxvel>
+        <limitsrad>0.000000 3.141593</limitsrad>
+    </Joint>
+    <Joint name="door_upper" type="hinge" enable="true">
+        <Body>refrigerator_base</Body>
+        <Body>door_upper</Body>
+        <offsetfrom>refrigerator_base</offsetfrom>
+        <anchor>0.383540 0.335756 1.644650</anchor>
+        <axis>-0.000000 -0.000000 1.000000</axis>
+        <maxvel>0</maxvel>
+        <limitsrad>0.000000 3.141593</limitsrad>
+    </Joint>
+    <Joint name="lower_handle_dummy" type="hinge" enable="false">
+        <Body>door_lower</Body>
+        <Body>lower_handle</Body>
+        <offsetfrom>door_lower</offsetfrom>
+        <anchor>-0.383540 -0.335756 -1.644650</anchor>
+        <axis>1.000000 0.000000 0.000000</axis>
+    </Joint>
+    <Joint name="upper_handle_dummy" type="hinge" enable="false">
+        <Body>door_upper</Body>
+        <Body>upper_handle</Body>
+        <offsetfrom>door_upper</offsetfrom>
+        <anchor>-0.383540 -0.335756 -1.644650</anchor>
+        <axis>1.000000 0.000000 0.000000</axis>
+    </Joint>
+</KinBody>

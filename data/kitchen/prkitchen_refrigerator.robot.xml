@@ -1,0 +1,10 @@
+<Robot name="refrigerator">
+    <KinBody file="prkitchen_refrigerator.kinbody.xml"/>
+    <Manipulator name="door_lower_hinge">
+        <Base>refrigerator_base</Base>
+        <Effector>door_lower</Effector>
+        <GripperJoints></GripperJoints>
+        <ClosingDirection></ClosingDirection>
+        <Direction>0 0 1</Direction>
+    </Manipulator>
+</Robot>
