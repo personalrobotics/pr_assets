@@ -7,13 +7,13 @@
             <com>-0.041195 0.489514 0.437654</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_base.wrl</Data>
+            <Data>./meshes/upper_base.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_base.wrl</Render>
+            <Render>./meshes/upper_base.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -30,13 +30,13 @@
             <com>0.317500 0.009525 -0.365125</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_0.wrl</Data>
+            <Data>./meshes/upper_0.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_0.wrl</Render>
+            <Render>./meshes/upper_0.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -53,13 +53,13 @@
             <com>-0.317500 -0.009525 0.365125</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_1.wrl</Data>
+            <Data>./meshes/upper_1.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_1.wrl</Render>
+            <Render>./meshes/upper_1.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -76,13 +76,13 @@
             <com>0.188913 0.288925 0.009525</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_2.wrl</Data>
+            <Data>./meshes/upper_2.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_2.wrl</Render>
+            <Render>./meshes/upper_2.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -99,13 +99,13 @@
             <com>-0.188913 -0.009525 0.288925</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_3.wrl</Data>
+            <Data>./meshes/upper_3.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_3.wrl</Render>
+            <Render>./meshes/upper_3.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -122,13 +122,13 @@
             <com>-0.182562 0.003175 0.365125</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_4.wrl</Data>
+            <Data>./meshes/upper_4.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_4.wrl</Render>
+            <Render>./meshes/upper_4.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -145,13 +145,13 @@
             <com>0.000000 0.001611 -0.000000</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_0.wrl</Data>
+            <Data>./meshes/upper_handle_0.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_0.wrl</Render>
+            <Render>./meshes/upper_handle_0.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.776471 0.756863 0.737255</diffusecolor>
@@ -168,13 +168,13 @@
             <com>0.000000 0.001611 0.000000</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_1.wrl</Data>
+            <Data>./meshes/upper_handle_1.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_1.wrl</Render>
+            <Render>./meshes/upper_handle_1.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.776471 0.756863 0.737255</diffusecolor>
@@ -191,13 +191,13 @@
             <com>-0.000000 0.001611 -0.000000</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_2.wrl</Data>
+            <Data>./meshes/upper_handle_2.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_2.wrl</Render>
+            <Render>./meshes/upper_handle_2.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.776471 0.756863 0.737255</diffusecolor>
@@ -214,13 +214,13 @@
             <com>-0.000000 0.001611 0.000000</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_3.wrl</Data>
+            <Data>./meshes/upper_handle_3.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_3.wrl</Render>
+            <Render>./meshes/upper_handle_3.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.776471 0.756863 0.737255</diffusecolor>
@@ -237,13 +237,13 @@
             <com>0.000000 0.001611 -0.000000</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_4.wrl</Data>
+            <Data>./meshes/upper_handle_4.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle_4.wrl</Render>
+            <Render>./meshes/upper_handle_4.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.776471 0.756863 0.737255</diffusecolor>

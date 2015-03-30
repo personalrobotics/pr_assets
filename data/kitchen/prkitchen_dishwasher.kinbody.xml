@@ -7,13 +7,13 @@
             <com>-0.017193 -0.000000 0.338541</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_base.wrl</Data>
+            <Data>./meshes/dish_base.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_base.wrl</Render>
+            <Render>./meshes/dish_base.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -30,13 +30,13 @@
             <com>-0.375650 0.016142 -0.294616</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_door.wrl</Data>
+            <Data>./meshes/dish_door.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_door.wrl</Render>
+            <Render>./meshes/dish_door.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -53,13 +53,13 @@
             <com>0.029118 0.273055 0.013606</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_handle.wrl</Data>
+            <Data>./meshes/dish_handle.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/dish_handle.wrl</Render>
+            <Render>./meshes/dish_handle.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>

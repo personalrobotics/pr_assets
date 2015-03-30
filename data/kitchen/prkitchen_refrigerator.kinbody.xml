@@ -7,13 +7,13 @@
             <com>-0.051402 0.000081 0.781178</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/refrigerator_base.wrl</Data>
+            <Data>./meshes/refrigerator_base.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/refrigerator_base.wrl</Render>
+            <Render>./meshes/refrigerator_base.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -30,13 +30,13 @@
             <com>-0.001818 -0.336558 -1.035970</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_lower.wrl</Data>
+            <Data>./meshes/door_lower.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_lower.wrl</Render>
+            <Render>./meshes/door_lower.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -53,13 +53,13 @@
             <com>-0.002549 -0.336566 -0.252515</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_upper.wrl</Data>
+            <Data>./meshes/door_upper.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/door_upper.wrl</Render>
+            <Render>./meshes/door_upper.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
@@ -76,13 +76,13 @@
             <com>0.437072 -0.307626 0.923811</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/lower_handle.wrl</Data>
+            <Data>./meshes/lower_handle.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/lower_handle.wrl</Render>
+            <Render>./meshes/lower_handle.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
@@ -99,13 +99,13 @@
             <com>0.437072 -0.307626 1.365136</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle.wrl</Data>
+            <Data>./meshes/upper_handle.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/upper_handle.wrl</Render>
+            <Render>./meshes/upper_handle.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>

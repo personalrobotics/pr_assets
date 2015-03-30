@@ -7,13 +7,13 @@
             <com>1.058757 1.902208 1.065416</com>
         </Mass>
         <Geom render="false" type="trimesh">
-            <Data>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/walls.wrl</Data>
+            <Data>./meshes/walls.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
         <Geom render="true" type="sphere">
             <radius>0.0</radius>
-            <Render>/homes/jeking/ros/local/collision_checking/pr_kitchen/meshes/walls.wrl</Render>
+            <Render>./meshes/walls.wrl</Render>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
             <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
