@@ -2,6 +2,11 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added smallsphere object
+* Contributors: prdemo
+
 0.1.0 (2015-02-10)
 ------------------
 * Adding padding to tray edges. Updating tag location on tray
