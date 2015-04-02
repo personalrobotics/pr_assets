@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>pr_ordata</name>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <description>
     The pr_ordata package provides OpenRAVE-specific environments, meshes,
     articulated bodies, robots, and database files used by the Personal

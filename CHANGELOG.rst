@@ -2,8 +2,8 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2015-04-01)
+------------------
 * added smallsphere object
 * Contributors: prdemo
 
