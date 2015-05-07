@@ -2,6 +2,11 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adding kitchen data
+* Contributors: Jennifer King
+
 0.1.1 (2015-04-01)
 ------------------
 * added smallsphere object
