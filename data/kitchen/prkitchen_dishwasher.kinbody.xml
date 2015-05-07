@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<KinBody name="prkitchen_dishwasher">
+    <Body name="dish_base" type="dynamic">
+        <Mass>
+            <total>84.485646567076898</total>
+            <inertia>11.928260 -0.000000 -0.201267 -0.000000 10.880212 0.000000 -0.201267 0.000000 6.380171</inertia>
+            <com>-0.017193 -0.000000 0.338541</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/dish_base.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/dish_base.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="dish_door" type="dynamic">
+        <offsetfrom>dish_base</offsetfrom>
+        <translation>0.317900 -0.294488 0.114002</translation>
+        <quat>0.500000 0.500000 0.500000 -0.500000</quat>
+        <Mass>
+            <total>20.241786165644999</total>
+            <inertia>0.588148 0.000000 -0.000000 0.000000 1.569322 -0.000049 -0.000000 -0.000049 0.988001</inertia>
+            <com>-0.375650 0.016142 -0.294616</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/dish_door.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/dish_door.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="dish_handle" type="dynamic">
+        <offsetfrom>dish_door</offsetfrom>
+        <translation>-0.707650 0.038650 -0.023000</translation>
+        <quat>0.500000 -0.500000 -0.500000 0.500000</quat>
+        <Mass>
+            <total>0.12680215505291001</total>
+            <inertia>0.003278 -0.000008 0.000000 -0.000008 0.000020 -0.000000 0.000000 -0.000000 0.003283</inertia>
+            <com>0.029118 0.273055 0.013606</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/dish_handle.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/dish_handle.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Joint name="dish_door" type="hinge" enable="true">
+        <Body>dish_base</Body>
+        <Body>dish_door</Body>
+        <offsetfrom>dish_base</offsetfrom>
+        <anchor>0.317900 -0.294488 0.114002</anchor>
+        <axis>0.000000 1.000000 0.000000</axis>
+        <maxvel>0</maxvel>
+        <limitsrad>0.000000 1.570796</limitsrad>
+    </Joint>
+    <Joint name="dish_handle" type="hinge" enable="false">
+        <Body>dish_door</Body>
+        <Body>dish_handle</Body>
+        <offsetfrom>dish_door</offsetfrom>
+        <anchor>-0.707650 0.038650 -0.023000</anchor>
+        <axis>1.000000 0.000000 0.000000</axis>
+    </Joint>
+</KinBody>

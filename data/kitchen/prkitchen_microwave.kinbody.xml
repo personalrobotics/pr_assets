@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<KinBody name="prkitchen_microwave">
+    <Body name="microwave_base" type="dynamic">
+        <Mass>
+            <total>43.063338999999999</total>
+            <inertia>2.285680 0.035394 -0.010890 0.035394 1.096283 0.045304 -0.010890 0.045304 2.124288</inertia>
+            <com>-0.009133 0.037993 0.165810</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/microwave_base.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/microwave_base.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="microwave_button" type="dynamic">
+        <offsetfrom>microwave_base</offsetfrom>
+        <translation>0.192944 -0.296150 0.355000</translation>
+        <quat>0.000000 1.000000 0.000000 0.000000</quat>
+        <Mass>
+            <total>0.18595443082587801</total>
+            <inertia>0.000173 0.000000 -0.000000 0.000000 0.000064 -0.000000 -0.000000 -0.000000 0.000159</inertia>
+            <com>0.000559 -0.547155 0.305006</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/microwave_button.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/microwave_button.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Body name="microwave_door" type="dynamic">
+        <offsetfrom>microwave_base</offsetfrom>
+        <translation>0.192944 -0.296150 0.355000</translation>
+        <quat>0.000000 1.000000 0.000000 0.000000</quat>
+        <Mass>
+            <total>7.7282399999998601</total>
+            <inertia>0.292888 0.000000 0.000000 0.000000 0.069039 0.006936 0.000000 0.006936 0.225910</inertia>
+            <com>0.000556 -0.287372 0.161539</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/microwave_door.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/microwave_door.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+    <Joint name="microwave_button" type="hinge" enable="false">
+        <Body>microwave_base</Body>
+        <Body>microwave_button</Body>
+        <offsetfrom>microwave_base</offsetfrom>
+        <anchor>0.192944 -0.296150 0.355000</anchor>
+        <axis>1.000000 0.000000 0.000000</axis>
+    </Joint>
+    <Joint name="microwave_door" type="hinge" enable="true">
+        <Body>microwave_base</Body>
+        <Body>microwave_door</Body>
+        <offsetfrom>microwave_base</offsetfrom>
+        <anchor>0.192944 -0.296150 0.355000</anchor>
+        <axis>0.000000 -0.000000 -1.000000</axis>
+        <maxvel>0</maxvel>
+        <limitsrad>0.000000 3.141593</limitsrad>
+    </Joint>
+</KinBody>

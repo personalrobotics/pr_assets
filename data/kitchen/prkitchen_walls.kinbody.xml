@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<KinBody name="prkitchen_walls">
+    <Body name="walls" type="dynamic">
+        <Mass>
+            <total>2365.8106090750298</total>
+            <inertia>6082.744272 -2142.828759 0.000000 -2142.828759 3670.345730 0.000000 0.000000 0.000000 7962.782825</inertia>
+            <com>1.058757 1.902208 1.065416</com>
+        </Mass>
+        <Geom render="false" type="trimesh">
+            <Data>./meshes/walls.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+        <Geom render="true" type="sphere">
+            <radius>0.0</radius>
+            <Render>./meshes/walls.wrl</Render>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
+            <transparency>0.000000</transparency>
+        </Geom>
+    </Body>
+</KinBody>
