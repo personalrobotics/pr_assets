@@ -2,8 +2,8 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2015-05-07)
+------------------
 * Adding kitchen data
 * Contributors: Jennifer King
 
