@@ -1,8 +1,12 @@
 <KinBody name="blue_wood_block_1inx1in">
   <Body type="static" name="blue_wood_block_1inx1in">
-    <Geom type="trimesh">
+<!--    <Geom type="trimesh">
       <Render>cube_mesh.stl</Render>
-      <Data>cube_mesh.stl</Data>
+      <Data>cube_mesh.stl</Data> 
     </Geom>
+-->
+  <Geom type="box">
+    <Extents>0.0127 0.0127 0.0254</Extents>
+  </Geom>
   </Body>
 </KinBody>
