@@ -2,8 +2,8 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2015-10-12)
+------------------
 * Added YCB objects (`#3 <https://github.com/personalrobotics/pr-ordata/issues/3>`)
 * Added colored bins (`#4 <https://github.com/personalrobotics/pr-ordata/issues/4>`_)
 * Added colored blocks (`#2 <https://github.com/personalrobotics/pr-ordata/issues/2>`_)
