@@ -2,6 +2,16 @@
 Changelog for package pr_ordata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added YCB objects (`#3 <https://github.com/personalrobotics/pr-ordata/issues/3>`)
+* Added colored bins (`#4 <https://github.com/personalrobotics/pr-ordata/issues/4>`_)
+* Added colored blocks (`#2 <https://github.com/personalrobotics/pr-ordata/issues/2>`_)
+* Added a human model for skeleton tracking
+* Fixed padding on the table.
+* Fixed tag locations for table_clearing objects 
+* Contributors: Aaron Johnson, Aaron Walsman, Clint Liddick, Jennifer King, Michael Koval, Shushman
+
 0.2.0 (2015-05-07)
 ------------------
 * Adding kitchen data
