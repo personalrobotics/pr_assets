@@ -1,0 +1,8 @@
+<KinBody name="poptarts">
+  <Body type="static">
+    <Geom type="trimesh">
+      <Data>poptarts.iv</Data>
+      <Render>poptarts.iv</Render>
+    </Geom>      
+  </Body>
+</KinBody>
