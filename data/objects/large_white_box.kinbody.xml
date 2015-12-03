@@ -1,0 +1,9 @@
+<KinBody name="large_white_box">
+  <Body type="static" name="large_white_box">
+    <Geom type="box">
+      <Translation>0 0 0.1075</Translation>
+      <Extents>0.051 0.051 0.1075</Extents>
+      <DiffuseColor>0.96 0.98 0.99</DiffuseColor>
+    </Geom>
+  </Body>
+</KinBody>
