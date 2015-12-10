@@ -1,0 +1,10 @@
+<KinBody name="table_plane">
+	<Body name="table_plane" type="static">
+		<Geom type="box" modifiable="false">
+			<AmbientColor>0.8 0.8 0.8</AmbientColor>
+			<DiffuseColor>0.8 0.8 0.8</DiffuseColor>
+			<Extents>0.3705 0.92575 0.021</Extents>
+			<Translation>-0.0 0.0 0.0</Translation>
+		</Geom>
+	</Body>
+</KinBody>
