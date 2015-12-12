@@ -1,0 +1,8 @@
+<KinBody name="035_power_drill">
+  <Body type="static" name="035_power_drill">
+    <Geom type="trimesh">
+      <Render>035_power_drill_textured.dae</Render>
+      <Data>035_power_drill_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

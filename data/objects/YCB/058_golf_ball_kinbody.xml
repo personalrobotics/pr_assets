@@ -1,0 +1,8 @@
+<KinBody name="058_golf_ball">
+  <Body type="static" name="058_golf_ball">
+    <Geom type="trimesh">
+      <Render>058_golf_ball_textured.dae</Render>
+      <Data>058_golf_ball_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

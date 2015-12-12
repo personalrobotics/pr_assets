@@ -1,0 +1,8 @@
+<KinBody name="026-a_sponge">
+  <Body type="static" name="026-a_sponge">
+    <Geom type="trimesh">
+      <Render>026-a_sponge_textured.dae</Render>
+      <Data>026-a_sponge_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

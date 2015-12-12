@@ -1,0 +1,8 @@
+<KinBody name="063-a_marbles">
+  <Body type="static" name="063-a_marbles">
+    <Geom type="trimesh">
+      <Render>063-a_marbles_textured.dae</Render>
+      <Data>063-a_marbles_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

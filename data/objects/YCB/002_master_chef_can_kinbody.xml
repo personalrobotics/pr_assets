@@ -1,0 +1,8 @@
+<KinBody name="002_master_chef_can">
+  <Body type="static" name="002_master_chef_can">
+    <Geom type="trimesh">
+      <Render>002_master_chef_can_textured.dae</Render>
+      <Data>002_master_chef_can_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

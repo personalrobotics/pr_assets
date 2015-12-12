@@ -1,0 +1,8 @@
+<KinBody name="071-b_nine_hole_peg_test">
+  <Body type="static" name="071-b_nine_hole_peg_test">
+    <Geom type="trimesh">
+      <Render>071-b_nine_hole_peg_test_textured.dae</Render>
+      <Data>071-b_nine_hole_peg_test_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

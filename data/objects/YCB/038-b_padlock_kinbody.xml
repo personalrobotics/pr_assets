@@ -1,0 +1,8 @@
+<KinBody name="038-b_padlock">
+  <Body type="static" name="038-b_padlock">
+    <Geom type="trimesh">
+      <Render>038-b_padlock_textured.dae</Render>
+      <Data>038-b_padlock_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

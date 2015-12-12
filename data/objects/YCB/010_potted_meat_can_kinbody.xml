@@ -1,0 +1,8 @@
+<KinBody name="010_potted_meat_can">
+  <Body type="static" name="010_potted_meat_can">
+    <Geom type="trimesh">
+      <Render>010_potted_meat_can_textured.dae</Render>
+      <Data>010_potted_meat_can_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

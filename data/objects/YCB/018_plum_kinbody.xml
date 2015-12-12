@@ -1,0 +1,8 @@
+<KinBody name="018_plum">
+  <Body type="static" name="018_plum">
+    <Geom type="trimesh">
+      <Render>018_plum_textured.dae</Render>
+      <Data>018_plum_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

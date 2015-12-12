@@ -1,0 +1,8 @@
+<KinBody name="076-a_timer">
+  <Body type="static" name="076-a_timer">
+    <Geom type="trimesh">
+      <Render>076-a_timer_textured.dae</Render>
+      <Data>076-a_timer_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

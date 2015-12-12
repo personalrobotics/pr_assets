@@ -1,0 +1,8 @@
+<KinBody name="028_skillet_lid">
+  <Body type="static" name="028_skillet_lid">
+    <Geom type="trimesh">
+      <Render>028_skillet_lid_textured.dae</Render>
+      <Data>028_skillet_lid_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

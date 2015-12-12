@@ -1,0 +1,8 @@
+<KinBody name="048_hammer">
+  <Body type="static" name="048_hammer">
+    <Geom type="trimesh">
+      <Render>048_hammer_textured.dae</Render>
+      <Data>048_hammer_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>
