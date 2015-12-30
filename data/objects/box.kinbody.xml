@@ -1,0 +1,9 @@
+<KinBody name="paper_box">
+  <Body type="static" name="paper_box">
+    <Geom type="box">
+      <Translation>0 0 0</Translation>
+      <Extents>0.08 0.06 0.04</Extents>
+      <DiffuseColor>0 0 1.0</DiffuseColor>
+    </Geom>
+  </Body>
+</KinBody>
