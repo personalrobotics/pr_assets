@@ -1,0 +1,8 @@
+<KinBody name="025_mug">
+  <Body type="static" name="025_mug">
+    <Geom type="trimesh">
+      <Render>025_mug_textured.dae</Render>
+      <Data>025_mug_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

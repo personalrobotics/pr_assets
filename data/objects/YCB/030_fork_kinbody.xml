@@ -1,0 +1,8 @@
+<KinBody name="030_fork">
+  <Body type="static" name="030_fork">
+    <Geom type="trimesh">
+      <Render>030_fork_textured.dae</Render>
+      <Data>030_fork_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

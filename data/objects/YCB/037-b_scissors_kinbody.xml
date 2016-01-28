@@ -1,0 +1,8 @@
+<KinBody name="037-b_scissors">
+  <Body type="static" name="037-b_scissors">
+    <Geom type="trimesh">
+      <Render>037-b_scissors_textured.dae</Render>
+      <Data>037-b_scissors_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

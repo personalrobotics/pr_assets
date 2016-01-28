@@ -1,0 +1,8 @@
+<KinBody name="073-e_lego_duplo">
+  <Body type="static" name="073-e_lego_duplo">
+    <Geom type="trimesh">
+      <Render>073-e_lego_duplo_textured.dae</Render>
+      <Data>073-e_lego_duplo_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

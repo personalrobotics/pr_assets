@@ -1,0 +1,8 @@
+<KinBody name="021-a_bleach_cleanser">
+  <Body type="static" name="021-a_bleach_cleanser">
+    <Geom type="trimesh">
+      <Render>021-a_bleach_cleanser_textured.dae</Render>
+      <Data>021-a_bleach_cleanser_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

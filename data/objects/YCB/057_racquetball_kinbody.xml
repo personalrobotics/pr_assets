@@ -1,0 +1,8 @@
+<KinBody name="057_racquetball">
+  <Body type="static" name="057_racquetball">
+    <Geom type="trimesh">
+      <Render>057_racquetball_textured.dae</Render>
+      <Data>057_racquetball_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

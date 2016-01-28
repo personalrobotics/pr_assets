@@ -1,0 +1,8 @@
+<KinBody name="022_windex_bottle">
+  <Body type="static" name="022_windex_bottle">
+    <Geom type="trimesh">
+      <Render>022_windex_bottle_textured.dae</Render>
+      <Data>022_windex_bottle_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

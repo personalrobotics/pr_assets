@@ -1,0 +1,8 @@
+<KinBody name="044_flat_screwdriver">
+  <Body type="static" name="044_flat_screwdriver">
+    <Geom type="trimesh">
+      <Render>044_flat_screwdriver_textured.dae</Render>
+      <Data>044_flat_screwdriver_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

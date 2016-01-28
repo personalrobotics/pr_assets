@@ -1,0 +1,8 @@
+<KinBody name="013_apple">
+  <Body type="static" name="013_apple">
+    <Geom type="trimesh">
+      <Render>013_apple_textured.dae</Render>
+      <Data>013_apple_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

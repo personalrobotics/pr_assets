@@ -1,0 +1,8 @@
+<KinBody name="052_extra_large_clamp">
+  <Body type="static" name="052_extra_large_clamp">
+    <Geom type="trimesh">
+      <Render>052_extra_large_clamp_textured.dae</Render>
+      <Data>052_extra_large_clamp_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

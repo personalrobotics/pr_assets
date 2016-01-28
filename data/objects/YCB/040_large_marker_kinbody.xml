@@ -1,0 +1,8 @@
+<KinBody name="040_large_marker">
+  <Body type="static" name="040_large_marker">
+    <Geom type="trimesh">
+      <Render>040_large_marker_textured.dae</Render>
+      <Data>040_large_marker_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

@@ -1,0 +1,8 @@
+<KinBody name="024_bowl">
+  <Body type="static" name="024_bowl">
+    <Geom type="trimesh">
+      <Render>024_bowl_textured.dae</Render>
+      <Data>024_bowl_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

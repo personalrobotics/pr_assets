@@ -1,0 +1,8 @@
+<KinBody name="007_tuna_fish_can">
+  <Body type="static" name="007_tuna_fish_can">
+    <Geom type="trimesh">
+      <Render>007_tuna_fish_can_textured.dae</Render>
+      <Data>007_tuna_fish_can_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

@@ -1,0 +1,8 @@
+<KinBody name="065-i_cups">
+  <Body type="static" name="065-i_cups">
+    <Geom type="trimesh">
+      <Render>065-i_cups_textured.dae</Render>
+      <Data>065-i_cups_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>

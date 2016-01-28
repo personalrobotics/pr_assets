@@ -1,0 +1,8 @@
+<KinBody name="003-a_cracker_box">
+  <Body type="static" name="003-a_cracker_box">
+    <Geom type="trimesh">
+      <Render>003-a_cracker_box_textured.dae</Render>
+      <Data>003-a_cracker_box_textured.dae</Data>
+    </Geom>
+  </Body>
+</KinBody>
