@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<KinBody name="toyotakitchen_silvermicrowave">
+ <Body name="SilverMicrowave" type="dynamic"> <!-- Set "name" to the default name of the KinBody.; no spaces in the name field -->
+   <Geom type="box">
+     <AmbientColor>0.5 0.5 0.5 1.0</AmbientColor> <!-- RGBA color -->
+     <DiffuseColor>0.5 0.5 0.5 1.0</DiffuseColor> <!-- RGBA color -->
+     <Extents>0.1429 0.2254 0.1302</Extents> <!-- x, y, and z half-extents, centered at the origin -->
+     <Translation>0.0 0.0 0.1302</Translation> <!-- translation of the origin -->
+   </Geom>
+ </Body>
+</KinBody>
