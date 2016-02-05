@@ -7,5 +7,11 @@
      <Extents>0.1429 0.2254 0.1302</Extents> <!-- x, y, and z half-extents, centered at the origin -->
      <Translation>0.0 0.0 0.1302</Translation> <!-- translation of the origin -->
    </Geom>
+   <Geom type="box">
+     <AmbientColor>0.5 0.5 0.5 1.0</AmbientColor> <!-- RGBA color -->
+     <DiffuseColor>0.5 0.5 0.5 1.0</DiffuseColor> <!-- RGBA color -->
+     <Extents>0.008 0.008 0.1032</Extents> <!-- x, y, and z half-extents, centered at the origin -->
+     <Translation>0.1763 0.1239 0.1572</Translation> <!-- translation of the origin -->
+   </Geom>
  </Body>
 </KinBody>
