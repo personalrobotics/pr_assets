@@ -21,4 +21,14 @@
       <Translation>0 -0.7239 0.346075</Translation>
     </Geom>
   </Body>
+  <Body name="padding_wooden_table" type="static">
+    <!-- Tabletop -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.83 0.67 0.48</AmbientColor>
+      <DiffuseColor>0.83 0.67 0.48</DiffuseColor>
+      <Extents>0.45005 0.8501 0.069</Extents>
+      <Translation>0 0 0.7017</Translation>
+      <Transparency>0.8</Transparency>
+    </Geom>
+  </Body>
 </KinBody>
