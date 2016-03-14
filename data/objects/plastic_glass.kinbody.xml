@@ -1,7 +1,7 @@
 <KinBody name="plastic_glass">
   <Body type="static" name="plastic_glass">
     <Geom type="trimesh">
-      <Render>glass.stl</Render>
+      <Render>plastic_glass_visual.dae</Render>
       <Data>plastic_glass_collision.stl</Data>
     </Geom>   
     <!--

@@ -1,0 +1,34 @@
+<KinBody name="wooden_table">
+  <Body name="wooden_table" type="static">
+    <!-- Tabletop -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.83 0.67 0.48</AmbientColor>
+      <DiffuseColor>0.83 0.67 0.48</DiffuseColor>
+      <Extents>0.40005 0.8001 0.019</Extents>
+      <Translation>0 0 0.7017</Translation>
+    </Geom>
+    <!-- Legs -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.3556 0.0254 0.346075</Extents>
+      <Translation>0 0.7239 0.346075</Translation>
+    </Geom>
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.7 0.7 0.7</AmbientColor>
+      <DiffuseColor>0.7 0.7 0.7</DiffuseColor>
+      <Extents>0.3556 0.0254 0.346075</Extents>
+      <Translation>0 -0.7239 0.346075</Translation>
+    </Geom>
+  </Body>
+  <Body name="padding_wooden_table" type="static">
+    <!-- Tabletop -->
+    <Geom type="box" modifiable="false">
+      <AmbientColor>0.83 0.67 0.48</AmbientColor>
+      <DiffuseColor>0.83 0.67 0.48</DiffuseColor>
+      <Extents>0.45005 0.8501 0.069</Extents>
+      <Translation>0 0 0.7017</Translation>
+      <Transparency>0.8</Transparency>
+    </Geom>
+  </Body>
+</KinBody>
