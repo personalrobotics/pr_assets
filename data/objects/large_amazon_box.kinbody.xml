@@ -1,0 +1,9 @@
+<KinBody name="large_amazon_box">
+  <Body type="static" name="large_amazon_box">
+    <Geom type="box">
+      <Translation>0 0 0.1075</Translation>
+      <Extents>0.175 0.135 0.06</Extents>
+      <DiffuseColor>0.4 0.15 0.02</DiffuseColor>
+    </Geom>
+  </Body>
+</KinBody>
