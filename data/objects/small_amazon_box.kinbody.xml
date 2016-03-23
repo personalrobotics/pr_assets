@@ -1,7 +1,7 @@
 <KinBody name="small_amazon_box">
   <Body type="static" name="small_amazon_box">
     <Geom type="box">
-      <Translation>0 0 0.1075</Translation>
+      <Translation>0 0 0.0675</Translation>
       <Extents>0.13 0.09 0.0675</Extents>
       <DiffuseColor>0.4 0.15 0.02</DiffuseColor>
     </Geom>
