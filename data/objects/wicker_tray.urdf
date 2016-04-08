@@ -1,0 +1,58 @@
+<robot name="wicker_tray">
+	<link name="wicker_tray">
+		<visual>
+			<geometry>
+					<mesh filename="wicker_tray_visual.dae"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="wicker_tray_collision.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="padding_wicker_tray">
+		<visual name="padding1">
+            <origin xyz="0 -.32 0.06"/>
+			<geometry>
+				<box size="0.23 0.01 0.06"/>
+				<material>
+					<color rgba="0.6 0.6 0.6 1.0"/>
+				</material>
+			</geometry>
+		</visual>
+		<visual name="padding2">
+            <origin xyz="0 .32 0.06"/>
+			<geometry>
+				<box size="0.23 0.01 0.06"/>
+				<material>
+					<color rgba="0.6 0.6 0.6 1.0"/>
+				</material>
+			</geometry>
+		</visual>
+		<visual name="padding3">
+            <origin xyz="0.225 0 0.06"/>
+			<geometry>
+				<box size="0.01 0.325 0.06"/>
+				<material>
+                    <color rgba="0.6 0.6 0.6 1.0"/>
+				</material>
+			</geometry>
+		</visual>
+		<visual name="padding4">
+            <origin xyz="-0.225 0 0.06"/>
+			<geometry>
+				<box size="0.01 0.325 0.06" />
+				<material>
+					<color rgba="0.6 0.6 0.6 1.0" />
+				</material>
+			</geometry>
+		</visual>
+	</link>
+
+    <joint name="wicker_joint" type="continuous">
+        <parent link="wicker_tray"/>
+        <child link="padding_wicker_tray"/>
+    </joint>
+</robot>

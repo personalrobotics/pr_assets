@@ -1,0 +1,13 @@
+<robot name="blue_wood_block_1inx1in">
+    <link name="blue_wood_block_1inx1in">
+        <visual>
+            <origin xyz="0 0 0.0127"/>
+            <geometry>
+                <box size="0.0127 0.0127 0.0127"/>
+                <material>
+                    <color rgba="0 0 1.0 0"/>
+                </material>
+            </geometry>
+        </visual>
+    </link>
+</robot>
