@@ -1,5 +1,5 @@
 <KinBody name="fork">
-  <Body type="dynamic" name="kinova_tool">
+  <Body type="dynamic" name="fork">
     <Geom type="sphere" modifiable="false">
       <Render>fork.stl</Render>
       <Radius>0</Radius>
@@ -13,5 +13,9 @@
         <Data>fork.stl 0.1</Data>
     </Geom>
     <!-- TODO: Add a sphere approximation. -->
+  </Body>
+  <Body name="tinetip">
+    <offsetfrom>fork</offsetfrom>
+    <Translation>0. 0. 0.16</Translation>
   </Body>
 </KinBody>
