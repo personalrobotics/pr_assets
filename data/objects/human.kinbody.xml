@@ -1,0 +1,148 @@
+<!-- human kinbody used by or_skeletons skeleton tracking -->
+<KinBody name="human">
+  <Body name="torso" type="dynamic">
+    <Geom type="box">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 0.0 0.0</DiffuseColor> <!-- red --> 
+      <Extents>0.1 0.1 0.25</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+      <RotationAxis>1 0 0 90</RotationAxis>
+    </Geom>
+  </Body>
+  <Body name="head" type="dynamic">
+    <Geom type="sphere">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 1.0 0.0</DiffuseColor> <!-- green -->
+      <Radius>0.1</Radius>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="neck" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 0.0 1.0</DiffuseColor> <!-- blue -->
+      <Radius>0.05</Radius>
+      <Height>0.1</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_shoulder" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 1.0 0.0</DiffuseColor> <!-- yellow -->
+      <Radius>0.05</Radius>
+      <Height>0.3</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_elbow" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 1.0 1.0</DiffuseColor> <!-- cyan -->
+      <Radius>0.05</Radius>
+      <Height>0.25</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_hand" type="dynamic">
+    <Geom type="sphere">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 0.0 1.0</DiffuseColor> <!-- magenta -->
+      <Radius>0.04</Radius>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_hip" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 0.0 0.0</DiffuseColor> <!-- black -->
+      <Radius>0.06</Radius>
+      <Height>0.5</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_knee" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 1.0 1.0</DiffuseColor> <!-- white -->
+      <Radius>0.05</Radius>
+      <Height>0.4</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="left_foot" type="dynamic">
+    <Geom type="box">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.5 0.5 0.5</DiffuseColor> <!-- gray -->
+      <Extents>0.04 0.04 0.1</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+
+  <Body name="right_shoulder" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 1.0 0.0</DiffuseColor> <!-- yellow -->
+      <Radius>0.05</Radius>
+      <Height>0.3</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="right_elbow" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 1.0 1.0</DiffuseColor> <!-- cyan -->
+      <Radius>0.05</Radius>
+      <Height>0.25</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="right_hand" type="dynamic">
+    <Geom type="sphere">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 0.0 1.0</DiffuseColor> <!-- magenta -->
+      <Radius>0.04</Radius>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="right_hip" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.0 0.0 0.0</DiffuseColor> <!-- black -->
+      <Radius>0.06</Radius>
+      <Height>0.5</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="right_knee" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>1.0 1.0 1.0</DiffuseColor> <!-- white -->
+      <Radius>0.05</Radius>
+      <Height>0.4</Height>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+  <Body name="right_foot" type="dynamic">
+    <Geom type="box">
+      <AmbientColor>0.1 0.1 0.1</AmbientColor>
+      <DiffuseColor>0.5 0.5 0.5</DiffuseColor> <!-- gray -->
+      <Extents>0.04 0.04 0.1</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+      <Quat>0.0 0.0 0.0 1</Quat>
+    </Geom>
+  </Body>
+</KinBody>

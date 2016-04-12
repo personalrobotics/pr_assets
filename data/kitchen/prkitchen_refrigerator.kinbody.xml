@@ -6,18 +6,10 @@
             <inertia>99.111847 0.008198 -0.774141 0.008198 93.801788 0.019086 -0.774141 0.019086 29.515170</inertia>
             <com>-0.051402 0.000081 0.781178</com>
         </Mass>
-        <Geom render="false" type="trimesh">
+        <Geom render="true" type="trimesh">
             <Data>./meshes/refrigerator_base.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
-        </Geom>
-        <Geom render="true" type="sphere">
-            <radius>0.0</radius>
-            <Render>./meshes/refrigerator_base.wrl</Render>
-            <translation>0.000000 0.000000 0.000000</translation>
-            <quat>1.000000 0.000000 0.000000 0.000000</quat>
-            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
-            <transparency>0.000000</transparency>
         </Geom>
     </Body>
     <Body name="door_lower" type="dynamic">
@@ -29,18 +21,10 @@
             <inertia>5.686269 -0.000001 -0.000001 -0.000001 3.885282 -0.000160 -0.000001 -0.000160 1.822760</inertia>
             <com>-0.001818 -0.336558 -1.035970</com>
         </Mass>
-        <Geom render="false" type="trimesh">
+        <Geom render="true" type="trimesh">
             <Data>./meshes/door_lower.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
-        </Geom>
-        <Geom render="true" type="sphere">
-            <radius>0.0</radius>
-            <Render>./meshes/door_lower.wrl</Render>
-            <translation>0.000000 0.000000 0.000000</translation>
-            <quat>1.000000 0.000000 0.000000 0.000000</quat>
-            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
-            <transparency>0.000000</transparency>
         </Geom>
     </Body>
     <Body name="door_upper" type="dynamic">
@@ -52,18 +36,10 @@
             <inertia>1.211705 -0.000001 0.000001 -0.000001 0.382947 0.000073 0.000001 0.000073 0.839601</inertia>
             <com>-0.002549 -0.336566 -0.252515</com>
         </Mass>
-        <Geom render="false" type="trimesh">
+        <Geom render="true" type="trimesh">
             <Data>./meshes/door_upper.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
-        </Geom>
-        <Geom render="true" type="sphere">
-            <radius>0.0</radius>
-            <Render>./meshes/door_upper.wrl</Render>
-            <translation>0.000000 0.000000 0.000000</translation>
-            <quat>1.000000 0.000000 0.000000 0.000000</quat>
-            <diffusecolor>0.792157 0.819608 0.933333</diffusecolor>
-            <transparency>0.000000</transparency>
         </Geom>
     </Body>
     <Body name="lower_handle" type="dynamic">
@@ -75,18 +51,10 @@
             <inertia>0.003108 -0.000000 -0.000000 -0.000000 0.003127 0.000000 -0.000000 0.000000 0.000042</inertia>
             <com>0.437072 -0.307626 0.923811</com>
         </Mass>
-        <Geom render="false" type="trimesh">
+        <Geom render="true" type="trimesh">
             <Data>./meshes/lower_handle.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
-        </Geom>
-        <Geom render="true" type="sphere">
-            <radius>0.0</radius>
-            <Render>./meshes/lower_handle.wrl</Render>
-            <translation>0.000000 0.000000 0.000000</translation>
-            <quat>1.000000 0.000000 0.000000 0.000000</quat>
-            <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
-            <transparency>0.000000</transparency>
         </Geom>
     </Body>
     <Body name="upper_handle" type="dynamic">
@@ -98,18 +66,10 @@
             <inertia>0.003108 0.000000 0.000000 0.000000 0.003127 0.000000 0.000000 0.000000 0.000042</inertia>
             <com>0.437072 -0.307626 1.365136</com>
         </Mass>
-        <Geom render="false" type="trimesh">
+        <Geom render="true" type="trimesh">
             <Data>./meshes/upper_handle.wrl</Data>
             <translation>0.000000 0.000000 0.000000</translation>
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
-        </Geom>
-        <Geom render="true" type="sphere">
-            <radius>0.0</radius>
-            <Render>./meshes/upper_handle.wrl</Render>
-            <translation>0.000000 0.000000 0.000000</translation>
-            <quat>1.000000 0.000000 0.000000 0.000000</quat>
-            <diffusecolor>0.000000 0.000000 0.000000</diffusecolor>
-            <transparency>0.000000</transparency>
         </Geom>
     </Body>
     <Joint name="door_lower" type="hinge" enable="true">
@@ -144,4 +104,5 @@
         <anchor>-0.383540 -0.335756 -1.644650</anchor>
         <axis>1.000000 0.000000 0.000000</axis>
     </Joint>
+
 </KinBody>

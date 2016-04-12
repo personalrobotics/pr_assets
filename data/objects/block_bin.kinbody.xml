@@ -3,23 +3,23 @@
 <Body name="block_bin_body">
  <Geom type="box"> <!-- bottom -->
    <Translation>0 0 0.005</Translation>
-   <extents>0.085 0.135 0.005</extents>
+   <extents>0.1 0.15 0.005</extents>
  </Geom>
  <Geom type="box"> <!-- front -->
-   <Translation>0. -.135 0.065</Translation>
-   <extents>0.085 0.005 0.065</extents>
+   <Translation>0. -.15 0.075</Translation>
+   <extents>0.1 0.005 0.075</extents>
  </Geom>
  <Geom type="box"> <!-- back -->
-   <Translation>0. .135 0.065</Translation>
-   <extents>0.085 0.005 0.065</extents>
+   <Translation>0. .15 0.075</Translation>
+   <extents>0.1 0.005 0.075</extents>
  </Geom>
  <Geom type="box"> <!-- left -->
-   <Translation>-.085 0. 0.065</Translation>
-   <extents>0.005 .135 0.065</extents>
+   <Translation>-.1 0. 0.075</Translation>
+   <extents>0.005 .15 0.075</extents>
  </Geom>
  <Geom type="box"> <!-- right -->
-   <Translation>.085 0. 0.065</Translation>
-   <extents>0.005 .135 0.065</extents>
+   <Translation>.1 0. 0.075</Translation>
+   <extents>0.005 .15 0.075</extents>
  </Geom>
 </Body>
 </KinBody>

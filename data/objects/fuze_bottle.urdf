@@ -1,0 +1,14 @@
+<robot name="fuze_bottle">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="fuze_bottle_visual.dae"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="fuze_bottle_collision.stl" scale="0.1 0.1 0.1"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
