@@ -1,0 +1,156 @@
+<robot name="table">
+  <!--
+       CMU 6' Conference Table
+    -->
+    <link name="table">
+        <visual name="tabletop1">
+            <geometry>
+                <box size="0.92575 0.021 0.3705"/>
+                <material>
+                    <color rgba="0.8 0.8 0.8 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.0 0.714 0"/>
+        </visual>
+        <visual name="tabletop2">
+            <geometry>
+                <box size="0.93175 0.021 0.3805"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.0 0.7135 0"/>
+        </visual>
+        <!-- table legs -->
+        <visual name="leg1">
+            <geometry>
+                <cylinder length="0.658" radius="0.025"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.364 0"/>
+        </visual>
+        <visual name="leg2">
+            <geometry>
+                <cylinder length="0.658" radius="0.025"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.61375 0.364 0"/>
+        </visual>
+        <visual name="leg3">
+            <geometry>
+                <cylinder length="0.01" radius="0.015"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.005 0.30"/>
+        </visual>
+        <visual name="leg4">
+            <geometry>
+                <cylinder length="0.01" radius="0.015"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.005 -0.30"/>
+        </visual>
+
+        <!-- boxes -->
+        <visual name="box0">
+            <geometry>
+                <box size="0.03 0.0025 0.33"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.03525 0"/>
+        </visual>
+        <visual name="box1">    <!-- copy accident in original? -->
+            <geometry>
+                <box size="0.03 0.0025 0.33"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.03525 0"/>
+        </visual>
+        <!-- more cylinders -->
+        <visual name="cyl1">
+            <geometry>
+                <cylinder length="0.025" radius="0.005"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.0225 0.30"/>
+        </visual>
+        <visual name="cyl2">
+            <geometry>
+                <cylinder length="0.025" radius="0.005"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.0225 -0.30"/>
+        </visual>
+        <!-- right table foot -->
+        <visual name="cyl3">
+            <geometry>
+                <cylinder length="0.01" radius="0.015"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.005 0.30"/>
+        </visual>
+        <visual name="cyl4">
+            <geometry>
+                <cylinder length="0.01" radius="0.015"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="0.61375 0.005 -0.30"/>
+        </visual>
+        <visual name="box2">
+            <geometry>
+                <box size="0.03 0.0025 0.33"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.61375 0.03525 0"/>
+        </visual>
+        <visual name="box3">    <!-- another box copied? -->
+            <geometry>
+                <box size="0.03 0.0025 0.33"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.61375 0.03525 0"/>
+        </visual>
+        <visual name="cyl5">
+            <geometry>
+                <cylinder length="0.025" radius="0.005"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.61375 0.0225 0.30"/>
+        </visual>
+        <visual name="cyl6">
+            <geometry>
+                <cylinder length="0.025" radius="0.005"/>
+                <material>
+                    <color rgba="0.4 0.4 0.4 0"/>
+                </material>
+            </geometry>
+            <origin xyz="-0.61375 0.0225 -0.30"/>
+        </visual>
+    </link>
+</robot>

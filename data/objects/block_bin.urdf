@@ -1,0 +1,34 @@
+<robot name="block_bin">
+    <link name="block_bin_body">
+        <visual name="box1"> <!-- bottom -->
+            <origin xyz="0 0 0.005"/>
+            <geometry>
+                <box size="0.1 0.15 0.005"/>
+            </geometry>
+        </visual>
+        <visual name="box2"><!-- front-->
+            <origin xyz="0 -0.15 0.075"/>
+            <geometry>
+                <box size="0.1 0.005 0.075"/>
+            </geometry>
+        </visual>
+        <visual name="box3"><!-- back -->
+            <origin xyz="0 .15 0.075"/>
+            <geometry>
+                <box size="0.1 0.005 0.075"/>
+            </geometry>
+        </visual>
+        <visual name="box4"><!-- left -->
+            <origin xyz="-.1 0 0.075"/>
+            <geometry>
+                <box size="0.005 .15 0.075"/>
+            </geometry>
+        </visual>
+        <visual name="box5"><!-- right -->
+            <origin xyz=".1 0 0.075"/>
+            <geometry>
+                <box size="0.005 .15 0.075"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
