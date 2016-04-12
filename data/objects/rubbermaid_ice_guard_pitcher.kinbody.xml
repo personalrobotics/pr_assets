@@ -1,0 +1,8 @@
+<KinBody name="rubbermaid_ice_guard_pitcher_blue">
+  <Body type="static" name="rubbermaid_ice_guard_pitcher_blue">
+    <Geom type="trimesh">
+      <Render>rubbermaid_ice_guard_pitcher_mesh.stl</Render>
+      <Data>rubbermaid_ice_guard_pitcher_mesh.stl</Data>
+    </Geom>
+  </Body>
+</KinBody>
