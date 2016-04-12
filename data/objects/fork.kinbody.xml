@@ -1,0 +1,17 @@
+<KinBody name="fork">
+  <Body type="dynamic" name="kinova_tool">
+    <Geom type="sphere" modifiable="false">
+      <Render>fork.stl</Render>
+      <Radius>0</Radius>
+      <diffuseColor>0.5 0.5 0.5</diffuseColor>
+      <ambientColor>0.5 0.5 0.5</ambientColor>
+      <specularColor>0.5 0.5 0.5</specularColor>
+      <shininess>1.0</shininess>
+      <transparency>0.0</transparency>
+    </Geom>      
+    <Geom type="trimesh" modifiable="false" render="false">
+        <Data>fork.stl 0.1</Data>
+    </Geom>
+    <!-- TODO: Add a sphere approximation. -->
+  </Body>
+</KinBody>
