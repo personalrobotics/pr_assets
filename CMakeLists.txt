@@ -19,6 +19,9 @@ if(${openrave_catkin_FOUND})
   install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/"
       DESTINATION "${OpenRAVE_INSTALL_DIR}/${OpenRAVE_DATA_DIR}"
   )
+  install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/"
+      DESTINATION "${CATKIN_PACKAGE_SHARE_DESTINATION}/data"
+  )
 else(${openrave_catkin_FOUND})
   message(WARNING "Unable to find openrave_catkin. You will have to manually"
                   " add these models to your OpenRAVE_DATA path.")
