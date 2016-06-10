@@ -5,12 +5,12 @@
 		<visual>
 			<origin rpy="0 0 0" xyz="0 0 0"/>
 			<geometry>
-				 <mesh filename="plastic_bowl_visual.dae"/>
+				 <mesh filename="package://pr_ordata/data/objects/plastic_bowl_visual.dae"/>
 			</geometry>
 		</visual>
 		<collision>
 			<geometry>
-				 <mesh filename="plastic_bowl_collision.stl"/>
+				 <mesh filename="package://pr_ordata/data/objects/plastic_bowl_collision.stl"/>
 			</geometry>
 		</collision>
 	</link>
