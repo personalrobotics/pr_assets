@@ -1,0 +1,89 @@
+#VRML V2.0 utf8
+Shape {
+appearance DEF COL_FrontColor Appearance {
+material Material { diffuseColor 1 1 1 }
+}
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.215 -0.305 0,
+-0.215 0.305 0,
+0.215 0.305 0,
+0.215 -0.305 0
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance DEF COL_BackColor Appearance {
+material Material { diffuseColor 0.643 0.698 0.733 }
+}
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.215 -0.305 0,
+0.215 0.305 0,
+-0.215 0.305 0,
+-0.215 -0.305 0
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.215 -0.305 0,
+0.215 0.305 0,
+0.215 0.305 -0.02,
+0.215 -0.305 -0.02
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.215 -0.305 -0.02,
+0.215 0.305 -0.02,
+0.215 0.305 0,
+0.215 -0.305 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
