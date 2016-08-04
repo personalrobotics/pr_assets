@@ -1,0 +1,12 @@
+<KinBody name="wheelchair_assembly">
+  <Body type="dynamic" name="wheelchair_assembly">
+    <Geom type="sphere" modifiable="false">
+        <Render>wheelchair.stl</Render>
+        <Radius>0</Radius>
+        <DiffuseColor>0.1 0.1 0.1</DiffuseColor>
+    </Geom>     
+    <Geom type="trimesh" modifiable="false" render="false">
+        <Data>wheelchair.stl 0.1</Data>
+    </Geom>
+  </Body>
+</KinBody>
