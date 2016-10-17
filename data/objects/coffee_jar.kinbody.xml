@@ -1,0 +1,12 @@
+<KinBody name="coffee_jar"> 
+  <Body name="base_link" type="dynamic">
+    <Geom type="cylinder">
+      <AmbientColor>0.5 0.5 0.5 1.0</AmbientColor> <!-- RGBA color -->
+      <DiffuseColor>0.5 0.5 0.5 1.0</DiffuseColor> <!-- RGBA color -->
+      <Height>0.165</Height>
+      <Radius>0.045</Radius>
+      <RotationAxis>1 0 0 90</RotationAxis>
+      <Translation>0.0 0.0 0.0825</Translation> <!-- translation of the origin -->
+    </Geom>
+  </Body>
+</KinBody>
