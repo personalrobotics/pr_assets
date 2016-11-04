@@ -1,0 +1,8 @@
+<KinBody name="light_cube">
+  <Body type="static" name="light_cube">
+    <Geom type="trimesh">
+      <Render>light_cube.stl</Render>
+      <Data>light_cube.stl</Data>
+    </Geom>
+  </Body>
+</KinBody>
