@@ -1,0 +1,14 @@
+<robot name="bookcase">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="bookcase.stl"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="bookcase.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
