@@ -1,0 +1,90 @@
+<robot name="block_bin">
+  <link name="base_link">
+
+    <!-- bottom -->
+    <collision>
+      <origin xyz="0 0.005 0"/>
+      <geometry>
+        <box size="0.2 0.01 0.3"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.005 0"/>
+      <geometry>
+        <box size="0.2 0.01 0.3"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- front -->
+    <collision>
+      <origin xyz="0 0.075 -0.15"/>
+      <geometry>
+        <box size="0.2 0.150 0.010"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.075 -0.15"/>
+      <geometry>
+        <box size="0.2 0.150 0.010"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- back -->
+    <collision>
+      <origin xyz="0 0.075 0.15"/>
+      <geometry>
+        <box size="0.2 0.150 0.010"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.075 0.15"/>
+      <geometry>
+        <box size="0.2 0.150 0.010"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- left -->
+    <collision>
+      <origin xyz="-0.1 0.075 0"/>
+      <geometry>
+        <box size="0.010 0.150 0.30"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.1 0.075 0"/>
+      <geometry>
+        <box size="0.010 0.150 0.30"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- right -->
+    <collision>
+      <origin xyz="0.1 0.075 0"/>
+      <geometry>
+        <box size="0.010 0.150 0.30"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.1 0.075 0"/>
+      <geometry>
+        <box size="0.010 0.150 0.30"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+  </link>
+</robot>

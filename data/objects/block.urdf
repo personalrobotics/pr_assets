@@ -1,0 +1,20 @@
+<robot name="blue_wood_block_1inx1in">
+  <link name="base_link">
+
+    <collision>
+      <origin xyz="0 0.0127 0"/>
+      <geometry>
+        <box size="0.0254 0.0254 0.0254"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.0127 0"/>
+      <geometry>
+        <box size="0.0254 0.0254 0.0254"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>
