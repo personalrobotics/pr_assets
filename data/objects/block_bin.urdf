@@ -1,90 +1,79 @@
 <robot name="block_bin">
   <link name="base_link">
-
-    <!-- bottom -->
     <collision>
-      <origin xyz="0 0.005 0"/>
+      <origin xyz="0 0 0.005" />
       <geometry>
-        <box size="0.2 0.01 0.3"/>
+        <box size="0.2 0.3 0.01" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="0 0.005 0"/>
-      <geometry>
-        <box size="0.2 0.01 0.3"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0.0 0.0 1.0 1.0"/>
+      <origin xyz="0 0 0.005" />
+      <material name="c">
+        <color rgba="0.2 0.2 0.8 1.0" />
       </material>
-    </visual>
-
-    <!-- front -->
-    <collision>
-      <origin xyz="0 0.075 -0.15"/>
       <geometry>
-        <box size="0.2 0.150 0.010"/>
+        <box size="0.2 0.3 0.01" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. -.15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="0 0.075 -0.15"/>
-      <geometry>
-        <box size="0.2 0.150 0.010"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0.0 0.0 1.0 1.0"/>
+      <origin xyz="0. -.15 0.075" />
+      <material name="c">
+        <color rgba="0.2 0.2 0.8 1.0" />
       </material>
-    </visual>
-
-    <!-- back -->
-    <collision>
-      <origin xyz="0 0.075 0.15"/>
       <geometry>
-        <box size="0.2 0.150 0.010"/>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. .15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="0 0.075 0.15"/>
-      <geometry>
-        <box size="0.2 0.150 0.010"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0.0 0.0 1.0 1.0"/>
+      <origin xyz="0. .15 0.075" />
+      <material name="c">
+        <color rgba="0.2 0.2 0.8 1.0" />
       </material>
-    </visual>
-
-    <!-- left -->
-    <collision>
-      <origin xyz="-0.1 0.075 0"/>
       <geometry>
-        <box size="0.010 0.150 0.30"/>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-.1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="-0.1 0.075 0"/>
-      <geometry>
-        <box size="0.010 0.150 0.30"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0.0 0.0 1.0 1.0"/>
+      <origin xyz="-.1 0. 0.075" />
+      <material name="c">
+        <color rgba="0.2 0.2 0.8 1.0" />
       </material>
-    </visual>
-
-    <!-- right -->
-    <collision>
-      <origin xyz="0.1 0.075 0"/>
       <geometry>
-        <box size="0.010 0.150 0.30"/>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz=".1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="0.1 0.075 0"/>
-      <geometry>
-        <box size="0.010 0.150 0.30"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0.0 0.0 1.0 1.0"/>
+      <origin xyz=".1 0. 0.075" />
+      <material name="c">
+        <color rgba="0.2 0.2 0.8 1.0" />
       </material>
+      <geometry>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
     </visual>
-
   </link>
 </robot>
