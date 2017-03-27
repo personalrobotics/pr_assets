@@ -29,6 +29,7 @@
         </collision>
     </link>
 
+    # Copied from wheels.urdf.
     <link name="r_wheel_link">
         <collision>
           <origin xyz="-0.0 -0.0025 0.0" />
@@ -197,7 +198,7 @@
         </visual>
     </link>
 
-
+    # Copied from wheels.urdf.
     <link name="l_wheel_link">
         <collision>
           <origin xyz="-0.0 -0.0025 0.0" />
@@ -402,3 +403,4 @@
     </joint>
 
 </robot>
+
