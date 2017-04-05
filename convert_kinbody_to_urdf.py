@@ -24,6 +24,9 @@ class Kinbody_Converter:
         print('read kinbody from  %s' % filename)
         return True
 
+    # TODO:
+    # handle Quat, RotationAxis
+    # handle sphere with Render and 0 radius
     def convert_child(self, parent, level=0):
         # print(level, parent.tag, parent.attrib, parent.text.strip())
         if parent.tag.lower() == 'geom':
@@ -43,20 +46,30 @@ class Kinbody_Converter:
             collision = self.add_sub_element(self.link, 'collision')
             visual = self.add_sub_element(self.link, 'visual')
 
-            self.add_origin(collision, features['translation'])
-            self.add_origin(visual, features['translation'])
-            self.add_color(visual, features)
+            if gtype == 'trimesh':
+                self.add_mesh_data(collision, features['data'])
+                self.add_mesh_render(visual, features['render'])
 
-            if gtype == 'box':
-                self.add_box(collision, features['extents'])
-                self.add_box(visual, features['extents'])
-            if gtype == 'cylinder':
-                self.add_cylinder(collision,
-                                  features['radius'],
-                                  features['height'])
-                self.add_cylinder(visual,
-                                  features['radius'],
-                                  features['height'])
+            else:
+                self.add_origin(collision, features['translation'])
+                self.add_origin(visual, features['translation'])
+                self.add_color(visual, features)
+
+                if gtype == 'box':
+                    self.add_box(collision, features['extents'])
+                    self.add_box(visual, features['extents'])
+                elif gtype == 'cylinder':
+                    self.add_cylinder(collision,
+                                      features['radius'],
+                                      features['height'])
+                    self.add_cylinder(visual,
+                                      features['radius'],
+                                      features['height'])
+                elif gtype == 'sphere':
+                    self.add_sphere(collision, features['radius'])
+                    self.add_sphere(visual, features['radius'])
+        elif parent.tag.lower() == 'orcdchomp':
+            return
         else:
             for child in parent:
                 self.convert_child(child, level + 1)
@@ -77,6 +90,24 @@ class Kinbody_Converter:
     def add_cylinder(self, parent, radius, length):
         geo = self.add_sub_element(parent, 'geometry')
         self.add_sub_element(geo, 'cylinder', {'radius': radius, 'length': length})
+
+    def add_sphere(self, parent, radius):
+        geo = self.add_sub_element(parent, 'geometry')
+        self.add_sub_element(geo, 'sphere', {'radius': radius})
+
+    def add_mesh_render(self, parent, filename):
+        geo = self.add_sub_element(parent, 'geometry')
+        self.add_sub_element(geo, 'mesh', {'filename': filename})
+
+    def add_mesh_data(self, parent, val):
+        ws = val.split(' ')
+        geo = self.add_sub_element(parent, 'geometry')
+        if len(ws) == 1:
+            self.add_sub_element(geo, 'mesh', {'filename': ws[0]})
+        else:
+            self.add_sub_element(geo, 'mesh',
+                                 {'filename': ws[0],
+                                  'scale': '%.2f %.2f %.2f' % (ws[1], ws[1], ws[1])})
 
     def add_color(self, parent, features):
         if 'diffusecolor' in features:

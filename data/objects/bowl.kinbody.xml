@@ -4,7 +4,7 @@
       <!--<Data>bowl.iv</Data>-->
       <Render>bowl.stl</Render>
       <Data>bowl.stl</Data>
-    </Geom>      
+    </Geom>
   </Body>
   <orcdchomp>
     <spheres>

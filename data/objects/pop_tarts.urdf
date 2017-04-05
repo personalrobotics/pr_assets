@@ -1,0 +1,21 @@
+<robot name="pop_tarts">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="pop_tarts_visual.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.07" />
+      <geometry>
+        <box size="0.1 0.1 0.14" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.07" />
+      <geometry>
+        <sphere radius="0.1" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,19 @@
+<robot name="coffee_jar">
+  <link name="base_link">
+    <collision>
+      <origin xyz="0.0 0.0 0.0825" />
+      <geometry>
+        <cylinder length="0.165" radius="0.045" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.0 0.0 0.0825" />
+      <material name="c">
+        <color rgba="0.5 0.5 0.5 1.0 1.0" />
+      </material>
+      <geometry>
+        <cylinder length="0.165" radius="0.045" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
