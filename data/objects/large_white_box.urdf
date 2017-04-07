@@ -1,5 +1,5 @@
 <robot name="large_white_box">
-  <link name="base_link">
+  <link name="large_white_box">
     <collision>
       <origin xyz="0 0 0.1075" />
       <geometry>

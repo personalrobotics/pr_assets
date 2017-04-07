@@ -1,5 +1,5 @@
 <robot name="block_bin">
-  <link name="base_link">
+  <link name="block_bin_body">
     <collision>
       <origin xyz="0 0 0.005" />
       <geometry>
@@ -8,9 +8,6 @@
     </collision>
     <visual>
       <origin xyz="0 0 0.005" />
-      <material name="c">
-        <color rgba="0.2 0.2 0.8 1.0" />
-      </material>
       <geometry>
         <box size="0.2 0.3 0.01" />
       </geometry>
@@ -23,9 +20,6 @@
     </collision>
     <visual>
       <origin xyz="0. -.15 0.075" />
-      <material name="c">
-        <color rgba="0.2 0.2 0.8 1.0" />
-      </material>
       <geometry>
         <box size="0.2 0.01 0.15" />
       </geometry>
@@ -38,9 +32,6 @@
     </collision>
     <visual>
       <origin xyz="0. .15 0.075" />
-      <material name="c">
-        <color rgba="0.2 0.2 0.8 1.0" />
-      </material>
       <geometry>
         <box size="0.2 0.01 0.15" />
       </geometry>
@@ -53,9 +44,6 @@
     </collision>
     <visual>
       <origin xyz="-.1 0. 0.075" />
-      <material name="c">
-        <color rgba="0.2 0.2 0.8 1.0" />
-      </material>
       <geometry>
         <box size="0.01 0.3 0.15" />
       </geometry>
@@ -68,9 +56,6 @@
     </collision>
     <visual>
       <origin xyz=".1 0. 0.075" />
-      <material name="c">
-        <color rgba="0.2 0.2 0.8 1.0" />
-      </material>
       <geometry>
         <box size="0.01 0.3 0.15" />
       </geometry>

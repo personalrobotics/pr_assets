@@ -1,5 +1,5 @@
 <robot name="wicker_tray">
-  <link name="base_link">
+  <link name="wicker_tray">
     <collision>
       <geometry>
         <mesh filename="wicker_tray_collision.stl" />

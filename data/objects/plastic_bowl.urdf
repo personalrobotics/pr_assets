@@ -1,5 +1,5 @@
 <robot name="plastic_bowl">
-  <link name="base_link">
+  <link name="plastic_bowl">
     <collision>
       <geometry>
         <mesh filename="plastic_bowl_collision.stl" />

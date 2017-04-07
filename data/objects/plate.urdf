@@ -1,13 +1,13 @@
-<robot name="bowl">
-  <link name="bowl">
+<robot name="plate">
+  <link name="plate">
     <collision>
       <geometry>
-        <mesh filename="bowl.stl" />
+        <mesh filename="plate.stl" />
       </geometry>
     </collision>
     <visual>
       <geometry>
-        <mesh filename="bowl.stl" />
+        <mesh filename="plate.stl" />
       </geometry>
     </visual>
   </link>

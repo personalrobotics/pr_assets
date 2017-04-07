@@ -1,5 +1,5 @@
 <robot name="table">
-  <link name="base_link">
+  <link name="table">
     <collision>
       <origin xyz="-0.0 0.714 0.0" />
       <geometry>

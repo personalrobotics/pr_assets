@@ -1,5 +1,5 @@
 <robot name="blue_wood_block_1inx1in">
-  <link name="base_link">
+  <link name="blue_wood_block_1inx1in">
     <collision>
       <origin xyz="0 0 0.0127" />
       <geometry>
