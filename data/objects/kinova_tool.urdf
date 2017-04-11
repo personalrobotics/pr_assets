@@ -1,0 +1,17 @@
+<robot name="kinova_tool">
+  <link name="kinova_tool">
+    <visual>
+      <geometry>
+        <mesh filename="kinova_tool.stl" />
+      </geometry>
+      <material name="c">
+        <color rgba="0.0 0.0 0.0 0.0" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="kinova_tool.stl" scale="0.10 0.10 0.10" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,19 @@
+<robot name="stamp">
+  <link name="stamp">
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.20" radius="0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" />
+      <material name="c">
+        <color rgba="0.45 0.25 0.05 1.0" />
+      </material>
+      <geometry>
+        <cylinder length="0.20" radius="0.02" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

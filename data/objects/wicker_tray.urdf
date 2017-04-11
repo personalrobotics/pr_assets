@@ -1,0 +1,74 @@
+<robot name="wicker_tray">
+  <link name="wicker_tray">
+    <collision>
+      <geometry>
+        <mesh filename="wicker_tray_collision.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="wicker_tray_visual.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.32 0.06" />
+      <geometry>
+        <box size="0.46 0.02 0.12" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.32 0.06" />
+      <material name="c">
+        <color rgba="0.6 0.6 0.6 1." />
+      </material>
+      <geometry>
+        <box size="0.46 0.02 0.12" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.32 0.06" />
+      <geometry>
+        <box size="0.46 0.02 0.12" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.32 0.06" />
+      <material name="c">
+        <color rgba="0.6 0.6 0.6 1.0" />
+      </material>
+      <geometry>
+        <box size="0.46 0.02 0.12" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.225 0 0.06" />
+      <geometry>
+        <box size="0.02 0.65 0.12" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.225 0 0.06" />
+      <material name="c">
+        <color rgba="0.6 0.6 0.6 1.0" />
+      </material>
+      <geometry>
+        <box size="0.02 0.65 0.12" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.225 0 0.06" />
+      <geometry>
+        <box size="0.02 0.65 0.12" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.225 0 0.06" />
+      <material name="c">
+        <color rgba="0.6 0.6 0.6 1.0" />
+      </material>
+      <geometry>
+        <box size="0.02 0.65 0.12" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

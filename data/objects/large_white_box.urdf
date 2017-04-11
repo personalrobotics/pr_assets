@@ -1,0 +1,19 @@
+<robot name="large_white_box">
+  <link name="large_white_box">
+    <collision>
+      <origin xyz="0 0 0.1075" />
+      <geometry>
+        <box size="0.102 0.102 0.215" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.1075" />
+      <material name="c">
+        <color rgba="0.96 0.98 0.99 1.0" />
+      </material>
+      <geometry>
+        <box size="0.102 0.102 0.215" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
