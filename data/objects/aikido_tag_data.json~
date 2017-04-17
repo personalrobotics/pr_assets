@@ -33,7 +33,7 @@
     ]
   },
 "tag1": {
-    "resource": "package://pr_ordata/data/objects/plastic_glass.urdf",
+    "resource": "plastic_glass.kinbody.xml",
     "name": "plastic_glass2",
     "offset": [
       [
