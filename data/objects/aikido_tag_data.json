@@ -32,6 +32,36 @@
       ]
     ]
   },
+"tag1": {
+    "resource": "package://pr_ordata/data/objects/plastic_glass.urdf",
+    "name": "plastic_glass2",
+    "offset": [
+      [
+        -0.9999956354637936, 
+        0.00017159596380951532, 
+        0.0029495098217266393, 
+        -0.0012885475890698178
+      ], 
+      [
+        0.0029529310436017175, 
+        0.09054915097111371, 
+        0.995887609851966, 
+        -0.14461510086945228
+      ], 
+      [
+        -9.618531587980501e-05, 
+        0.9958919729635517, 
+        -0.0905492624771141, 
+        -0.03364494935585822
+      ], 
+      [
+        0.0, 
+        0.0, 
+        0.0, 
+        1.0
+      ]
+    ]
+  },
   "tag114": {
     "resource": "package://pr_ordata/data/objects/plastic_bowl.urdf",
     "name": "plastic_bowl",
@@ -66,7 +96,7 @@
     ]
   },
   "tag127": {
-    "resource": "package://pr_ordata/data/objects/table_mike.urdf", 
+    "resource": "package://pr_ordata/data/furniture/table.urdf", 
     "name": "table",
     "offset": [
        [
@@ -78,15 +108,15 @@
       , 
        [
         0.0, 
+        1.0, 
         0.0, 
-        -1.0, 
         -0.3483833968639374
        ]
       , 
        [ 
         0.0, 
-        1.0, 
         0.0, 
+        1.0, 
         -0.7350000143051147
        ]
       , 
