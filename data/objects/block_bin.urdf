@@ -1,0 +1,64 @@
+<robot name="block_bin">
+  <link name="block_bin_body">
+    <collision>
+      <origin xyz="0 0 0.005" />
+      <geometry>
+        <box size="0.2 0.3 0.01" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.005" />
+      <geometry>
+        <box size="0.2 0.3 0.01" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. -.15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0. -.15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. .15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0. .15 0.075" />
+      <geometry>
+        <box size="0.2 0.01 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-.1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-.1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz=".1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz=".1 0. 0.075" />
+      <geometry>
+        <box size="0.01 0.3 0.15" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

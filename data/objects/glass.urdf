@@ -1,0 +1,14 @@
+<robot name="glass">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="glass.stl"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="glass.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

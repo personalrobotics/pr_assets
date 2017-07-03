@@ -1,0 +1,14 @@
+<robot name="rubbermaid_ice_guard_pitcher_blue">
+  <link name="rubbermaid_ice_guard_pitcher_blue">
+    <collision>
+      <geometry>
+        <mesh filename="rubbermaid_ice_guard_pitcher_mesh.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="rubbermaid_ice_guard_pitcher_mesh.stl" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

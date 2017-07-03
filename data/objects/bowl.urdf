@@ -1,0 +1,14 @@
+<robot name="bowl">
+  <link name="bowl">
+    <collision>
+      <geometry>
+        <mesh filename="bowl.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="bowl.stl" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
