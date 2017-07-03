@@ -13,6 +13,11 @@
         <Data>fork.stl 0.1</Data>
     </Geom>
     <!-- TODO: Add a sphere approximation. -->
+    <Geom type="box" modifiable="false" render="false">
+      <Extents>0.00124 0.00075 0.0125</Extents>
+      <Translation>0.0 0.0 0.0</Translation>
+    </Geom>
+    
   </Body>
   <Body name="tinetip">
     <offsetfrom>fork</offsetfrom>
