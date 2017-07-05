@@ -10,7 +10,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="fork.stl" scale="0.10 0.10 0.10" />
+        <mesh filename="fork_collision.stl" scale="1.0 1.00 1.00" />
       </geometry>
     </collision>
   </link>

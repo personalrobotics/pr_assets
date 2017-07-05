@@ -1,7 +1,7 @@
-<KinBody name="fork">
-  <Body type="dynamic" name="fork">
+<KinBody name="forque">
+  <Body type="dynamic" name="forque">
     <Geom type="sphere" modifiable="false">
-      <Render>fork.stl</Render>
+      <Render>forque.stl</Render>
       <Radius>0</Radius>
       <diffuseColor>0.5 0.5 0.5</diffuseColor>
       <ambientColor>0.5 0.5 0.5</ambientColor>
@@ -11,7 +11,7 @@
     </Geom> 
 
     <Geom type="trimesh" modifiable="false" render="false">
-        <Data>fork_collision.stl</Data>
+        <Data>forque_collision.stl</Data>
     </Geom>
 
     <!-- TODO: Add a sphere approximation. -->
@@ -22,7 +22,7 @@
     
   </Body>
   <Body name="tinetip">
-    <offsetfrom>fork</offsetfrom>
-    <Translation>0. 0. 0.16</Translation>
+    <offsetfrom>forque</offsetfrom>
+    <Translation>0. -0.005 0.16</Translation>
   </Body>
 </KinBody>

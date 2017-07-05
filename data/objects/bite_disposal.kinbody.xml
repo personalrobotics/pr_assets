@@ -1,0 +1,28 @@
+<KinBody name="bite_disposal">
+  <!-- 
+       CMU 6' Conference Table
+    -->
+  <Body name="bite_disposal" type="static">
+    <!-- Vertical bar -->
+    <Geom type="box">
+      <AmbientColor>0.4 0.4 0.4</AmbientColor>
+      <DiffuseColor>0.4 0.4 0.4</DiffuseColor>
+      <Extents>0.0127 0.0127 0.1125</Extents>
+      <Translation>-0.0 0.0 0.1125</Translation>
+    </Geom>
+    <!-- Horizontal bar -->
+    <Geom type="box">
+      <AmbientColor>0.4 0.4 0.4</AmbientColor>
+      <DiffuseColor>0.4 0.4 0.4</DiffuseColor>
+      <Extents>0.10 0.0127 0.0127</Extents>
+      <Translation>0.062 0.0 0.2377</Translation>
+    </Geom>
+    <!-- Angled brace -->
+    <Geom type="box">
+      <AmbientColor>0.4 0.4 0.4</AmbientColor>
+      <DiffuseColor>0.4 0.4 0.4</DiffuseColor>
+      <Extents>0.051 0.0025 0.051</Extents>
+      <Translation>0.013 -0.0152 0.1994</Translation>
+    </Geom>
+  </Body>
+</KinBody>
