@@ -1,0 +1,19 @@
+<robot name="can">
+  <link name="base_link">
+    <collision>
+      <origin xyz="0.0 0.0 0.0615" />
+      <geometry>
+        <cylinder length="0.123" radius="0.033" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.0 0.0 0.0615" />
+      <material name="c">
+        <color rgba="0.65 0.7 0.7 1.0" />
+      </material>
+      <geometry>
+        <cylinder length="0.123" radius="0.033" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
