@@ -1,0 +1,113 @@
+<robot name="uw_demo_table">
+  <link name="base_link">
+    <!-- NOTE: Collision geometry is simplified: just three boxes. -->
+    <!-- Tabletop Collision Geometry -->
+    <collision>
+      <origin xyz="0 0 0.69"/>
+      <geometry>
+        <box size="1.8288 0.762 0.05295"/>
+      </geometry>
+    </collision>
+    <!-- Left Leg Collision Geometry -->
+    <collision>
+      <origin xyz="0.7444 0 0.3317625"/>
+      <geometry>
+        <box size="0.06 0.62 0.663525"/>
+      </geometry>
+    </collision>
+    <!-- Right Leg Collision Geometry -->
+    <collision>
+      <origin xyz="-0.7444 0 0.3317625"/>
+      <geometry>
+        <box size="0.06 0.62 0.663525"/>
+      </geometry>
+    </collision>
+    <!-- NOTE: Visual Geometry is more detailed than collision geometry. -->
+    <!-- Tabletop Visual Geometry -->
+    <visual>
+      <origin xyz="0 0 0.69"/>
+      <geometry>
+        <box size="1.8288 0.762 0.05295"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.8 0.8 0.8 1.0"/>
+      </material>
+    </visual>
+    <!-- Left Leg Visual Geometry -->
+    <visual>
+      <origin xyz="0.7444 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.03" length="0.658"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- Right Leg Visual Geometry -->
+    <visual>
+      <origin xyz="-0.7444 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.03" length="0.658"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- Left table foot -->
+    <visual>
+      <origin xyz="0.7444 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.62 0.025"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0.7444 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0.7444 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- Right table foot -->
+    <visual>
+      <origin xyz="-0.7444 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.62 0.025"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="-0.7444 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="-0.7444 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>
