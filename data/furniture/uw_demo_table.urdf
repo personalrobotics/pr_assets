@@ -1,13 +1,29 @@
-<robot name="conference_table">
+<robot name="uw_demo_table">
   <link name="base_link">
-    <!-- Tabletop -->
-    <!-- NOTE: Collision geometry is just bounding box around table. -->
+    <!-- NOTE: Collision geometry is simplified: just three boxes. -->
+    <!-- Tabletop Collision Geometry -->
     <collision>
-      <origin xyz="0 0 0.371475"/>
+      <origin xyz="0 0 0.69"/>
       <geometry>
-        <box size="1.8288 0.762 0.74295"/>
+        <box size="1.8288 0.762 0.05295"/>
       </geometry>
     </collision>
+    <!-- Left Leg Collision Geometry -->
+    <collision>
+      <origin xyz="0.7444 0 0.3317625"/>
+      <geometry>
+        <box size="0.06 0.62 0.663525"/>
+      </geometry>
+    </collision>
+    <!-- Right Leg Collision Geometry -->
+    <collision>
+      <origin xyz="-0.7444 0 0.3317625"/>
+      <geometry>
+        <box size="0.06 0.62 0.663525"/>
+      </geometry>
+    </collision>
+    <!-- NOTE: Visual Geometry is more detailed than collision geometry. -->
+    <!-- Tabletop Visual Geometry -->
     <visual>
       <origin xyz="0 0 0.69"/>
       <geometry>
@@ -17,9 +33,9 @@
         <color rgba="0.8 0.8 0.8 1.0"/>
       </material>
     </visual>
-    <!-- Table Legs -->
+    <!-- Left Leg Visual Geometry -->
     <visual>
-      <origin xyz="0.61375 0 0.364"/>
+      <origin xyz="0.7444 0 0.364"/>
       <geometry>
         <cylinder radius="0.025" length="0.658"/>
       </geometry>
@@ -27,8 +43,9 @@
         <color rgba="0.4 0.4 0.4 1.0"/>
       </material>
     </visual>
+    <!-- Right Leg Visual Geometry -->
     <visual>
-      <origin xyz="-0.61375 0 0.364"/>
+      <origin xyz="-0.7444 0 0.364"/>
       <geometry>
         <cylinder radius="0.025" length="0.658"/>
       </geometry>
@@ -38,7 +55,7 @@
     </visual>
     <!-- Left table foot -->
     <visual>
-      <origin xyz="0.61375 0 0.02"/>
+      <origin xyz="0.7444 0 0.02"/>
       <geometry>
         <box size="0.06 0.66 0.025"/>
       </geometry>
@@ -47,7 +64,7 @@
       </material>
     </visual>
     <visual>
-      <origin xyz="0.61375 0.30 0.005"/>
+      <origin xyz="0.7444 0.30 0.005"/>
       <geometry>
         <cylinder radius="0.015" length="0.01"/>
       </geometry>
@@ -56,7 +73,7 @@
       </material>
     </visual>
     <visual>
-      <origin xyz="0.61375 -0.30 0.005"/>
+      <origin xyz="0.7444 -0.30 0.005"/>
       <geometry>
         <cylinder radius="0.015" length="0.01"/>
       </geometry>
@@ -66,7 +83,7 @@
     </visual>
     <!-- Right table foot -->
     <visual>
-      <origin xyz="-0.61375 0 0.02"/>
+      <origin xyz="-0.7444 0 0.02"/>
       <geometry>
         <box size="0.06 0.66 0.025"/>
       </geometry>
@@ -75,7 +92,7 @@
       </material>
     </visual>
     <visual>
-      <origin xyz="-0.61375 0.30 0.005"/>
+      <origin xyz="-0.7444 0.30 0.005"/>
       <geometry>
         <cylinder radius="0.015" length="0.01"/>
       </geometry>
@@ -84,7 +101,7 @@
       </material>
     </visual>
     <visual>
-      <origin xyz="-0.61375 -0.30 0.005"/>
+      <origin xyz="-0.7444 -0.30 0.005"/>
       <geometry>
         <cylinder radius="0.015" length="0.01"/>
       </geometry>
