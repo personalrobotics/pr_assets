@@ -3,7 +3,7 @@
     <collision>
       <origin xyz="-0.3 0.0 0.0" />
       <geometry>
-        <mesh filename="can_collision.stl" />
+        <cylinder length="0.123" radius="0.033" />
       </geometry>
     </collision>
     <visual>
