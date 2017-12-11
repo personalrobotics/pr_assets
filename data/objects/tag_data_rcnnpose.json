@@ -31,6 +31,14 @@
     "resource": "package://pr_ordata/data/objects/can.urdf",
     "name": "sanpellegrino_blood_orange"
   },
+  "can_sanpellegrino_lemon": {
+    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "name": "sanpellegrino_lemon"
+  },
+  "can_sanpellegrino_clementine": {
+    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "name": "sanpellegrino_clementine"
+  },
   "can_diet_coke_small": {
     "resource": "package://pr_ordata/data/objects/can.urdf",
     "name": "diet_coke_small"
