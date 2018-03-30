@@ -1,0 +1,19 @@
+<robot name="food_item">
+  <link name="food_item">
+    <collision>
+      <origin xyz="0 0 0.0127" />
+      <geometry>
+        <box size="0.0254 0.0254 0.015" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.0127" />
+      <material name="c">
+        <color rgba="0 0 1.0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.0254 0.0254 0.015" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
