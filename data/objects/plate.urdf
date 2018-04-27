@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <robot name="plate">
   <link name="plate">
     <collision>
