@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <robot name="food_item">
   <link name="food_item">
-    <!--collision>
+    <collision>
       <origin xyz="0.0 0.0 0.0075" />
       <geometry>
         <box size="0.025 0.025 0.015" />
       </geometry>
-    </collision-->
+    </collision>
     <visual>
       <origin xyz="0.0 0.0 0.0075" />
       <material name="c">
