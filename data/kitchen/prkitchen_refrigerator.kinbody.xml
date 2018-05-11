@@ -12,6 +12,16 @@
             <quat>1.000000 0.000000 0.000000 0.000000</quat>
         </Geom>
     </Body>
+    <Body name="shelf" type="dynamic">
+        <offsetfrom>refrigerator_base</offsetfrom>
+        <translation>0.0 0.0 0.0</translation>
+        <quat>1.000000 0.000000 -0.000000 0.000000</quat>
+        <Geom render="true" type="trimesh">
+            <Data>./meshes/fridge_shelf.wrl</Data>
+            <translation>0.000000 0.000000 0.000000</translation>
+            <quat>1.000000 0.000000 0.000000 0.000000</quat>
+        </Geom>
+    </Body>
     <Body name="door_lower" type="dynamic">
         <offsetfrom>refrigerator_base</offsetfrom>
         <translation>0.383540 0.335756 1.644650</translation>
@@ -104,5 +114,14 @@
         <anchor>-0.383540 -0.335756 -1.644650</anchor>
         <axis>1.000000 0.000000 0.000000</axis>
     </Joint>
-
+    <Joint name="shelf" type="slider" enable="true">
+      <Body>refrigerator_base</Body>
+      <Body>shelf</Body>
+      <offsetfrom>refrigerator_base</offsetfrom>
+      <anchor>0.383540 0.335756 1.644650</anchor>
+      <axis>0.000000 0.000000 1.000000</axis>
+      <maxvel>0</maxvel>
+      <limits>0.15 1.10</limits>
+      <initial>0.69</initial>
+    </Joint>
 </KinBody>
