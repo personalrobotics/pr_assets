@@ -1,0 +1,143 @@
+<robot name="conference_table">
+  <link name="base_link">
+    <!-- Tabletop -->
+    <collision>
+      <origin xyz="0 0 0.714"/>
+      <geometry>
+        <box size="1.52 0.76 0.042"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.714"/>
+      <geometry>
+        <box size="1.52 0.76 0.042"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.8 0.8 0.8 1.0"/>
+      </material>
+    </visual>
+    <!-- Table Legs -->
+    <collision>
+      <origin xyz="0.61375 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.658"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.61375 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.658"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.61375 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.658"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="-0.61375 0 0.364"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.658"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- Left table foot -->
+    <collision>
+      <origin xyz="0.61375 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.66 0.025"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.61375 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.61375 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.61375 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.66 0.025"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0.61375 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0.61375 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- Right table foot -->
+    <collision>
+      <origin xyz="-0.61375 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.66 0.025"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.61375 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.61375 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.61375 0 0.02"/>
+      <geometry>
+        <box size="0.06 0.66 0.025"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="-0.61375 0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="-0.61375 -0.30 0.005"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.01"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>
