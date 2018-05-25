@@ -25,32 +25,32 @@
       <origin xyz="0.88 0.905 1"/>
       <geometry>
         <!--without safety margin: box size="3 0.1 3""/-->
-        <box size="3 0.2 3"/>
+        <box size="3 0.4 3"/>
       </geometry>
     </collision>
-    <!--visual>
+    <visual>
       <origin xyz="0.88 0.905 1"/>
       <geometry>
         <box size="3 0.2 3"/>
       </geometry>
       <material name="yellow"/>
-    </visual-->
+    </visual>
 
     <!-- Stuff on left side -->
     <collision>
       <origin xyz="-0.61 0.4825 1"/>
       <geometry>
         <!--without safety margin: box size="1 0.745 3"/-->
-        <box size="1.1 1.745 3"/>
+        <box size="1.3 1.745 3"/>
       </geometry>
     </collision>
-    <!--visual>
+    <visual>
       <origin xyz="-0.61 0.4825 1"/>
       <geometry>
         <box size="1.1 1.745 3"/>
       </geometry>
       <material name="green"/>
-    </visual-->
+    </visual>
 
     <!-- Shelf on right side -->
     <collision>
@@ -60,13 +60,13 @@
         <box size="1 0.71 3"/>
       </geometry>
     </collision>
-    <!--visual>
+    <visual>
       <origin xyz="2.02 0.475 1"/>
       <geometry>
         <box size="1.1 0.71 3"/>
       </geometry>
       <material name="green"/>
-    </visual-->
+    </visual>
 
     <!-- "Floor" We don't expect the robot to need to go below 0 in z direction -->
     <collision>
@@ -75,28 +75,27 @@
         <box size="2.5 2.5 0.1"/>
       </geometry>
     </collision>
-    <!--visual>
+    <visual>
       <origin xyz="0.88 0.38 -0.1"/>
       <geometry>
         <box size="2.5 2.5 0.1"/>
       </geometry>
       <material name="blue"/>
-    </visual-->
+    </visual>
 
     <!-- Computer + Operator -->
     <collision>
-      <origin xyz="1.31 0 0.5"/>
+      <origin xyz="1.21 0 0.5"/>
       <geometry>
-        <!--without safety margin: box size="1 0.61 3"/-->
         <box size="0.5 1.6 1.2"/>
       </geometry>
     </collision>
-    <!--visual>
-      <origin xyz="1.31 0 0.5"/>
+    <visual>
+      <origin xyz="1.21 0 0.5"/>
       <geometry>
         <box size="0.5 1.6 1.2"/>
       </geometry>
       <material name="orange"/>
-    </visual-->
+    </visual>
   </link>
 </robot>
