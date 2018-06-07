@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="workspace_feeding_demo">
 
-  <!-- 
+  <!--
   The origin is the front left upper corner of the tabletop.
   -->
 
@@ -25,7 +25,7 @@
       <origin xyz="0.88 0.905 1"/>
       <geometry>
         <!--without safety margin: box size="3 0.1 3""/-->
-        <box size="3 0.2 3"/>
+        <box size="3 0.4 3"/>
       </geometry>
     </collision>
     <visual>
@@ -41,7 +41,7 @@
       <origin xyz="-0.61 0.4825 1"/>
       <geometry>
         <!--without safety margin: box size="1 0.745 3"/-->
-        <box size="1.1 1.745 3"/>
+        <box size="1.3 1.745 3"/>
       </geometry>
     </collision>
     <visual>
