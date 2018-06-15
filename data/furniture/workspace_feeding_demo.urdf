@@ -69,7 +69,7 @@
     </visual>
 
     <!-- "Floor" We don't expect the robot to need to go below 0 in z direction -->
-    <collision>
+    <!--collision>
       <origin xyz="0.88 0.38 -0.1"/>
       <geometry>
         <box size="2.5 2.5 0.1"/>
@@ -81,7 +81,7 @@
         <box size="2.5 2.5 0.1"/>
       </geometry>
       <material name="blue"/>
-    </visual>
+    </visual-->
 
     <!-- Computer + Operator -->
     <collision>
