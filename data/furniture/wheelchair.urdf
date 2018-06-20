@@ -8,7 +8,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="wheelchair_collision.dae" scale="1 1 1"/>
+                <mesh filename="wheelchair_collision.stl" scale="1 1 1"/>
             </geometry>
         </collision>
     </link>
