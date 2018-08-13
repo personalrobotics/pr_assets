@@ -3,7 +3,8 @@
     <link name="base_link">
         <visual>
             <geometry>
-                <mesh filename="wheelchair.dae" scale="1 1 1"/>
+                <!-- <mesh filename="wheelchair.dae" scale="1 1 1"/> -->
+                <mesh filename="wheelchair_collision.stl" scale="1 1 1"/>
             </geometry>
         </visual>
         <collision>
