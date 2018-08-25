@@ -1,0 +1,19 @@
+<robot name="airplane_box">
+  <link name="airplane_box">
+    <collision>
+      <origin xyz="0 0 0.091" />
+      <geometry>
+        <box size="0.296 0.134 0.182" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.091" />
+      <material name="c">
+        <color rgba="0 0 1.0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.296 0.134 0.182" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

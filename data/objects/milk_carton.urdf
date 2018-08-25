@@ -1,0 +1,19 @@
+<robot name="milk_carton">
+  <link name="milk_carton">
+    <collision>
+      <origin xyz="0 0 0.11" />
+      <geometry>
+        <box size="0.096 0.096 0.22" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.11" />
+      <material name="c">
+        <color rgba="0 0 1.0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.096 0.096 0.22" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

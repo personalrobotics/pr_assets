@@ -1,0 +1,19 @@
+<robot name="cheezit">
+  <link name="cheezit">
+    <collision>
+      <origin xyz="0 0 0.105" />
+      <geometry>
+        <box size="0.16 0.06 0.21" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.105" />
+      <material name="c">
+        <color rgba="0 1.0 0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.16 0.06 0.21" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
