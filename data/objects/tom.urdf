@@ -4,12 +4,12 @@
         <visual>
 	    <origin rpy="3.1415 0 -1.57" />
             <geometry>
-                <!-- <mesh filename="tom.dae" scale="1 1 1"/> -->
+                <mesh filename="tom.dae" scale="0.8 0.8 0.8"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="tom.dae" scale="1 1 1"/>
+                <mesh filename="tom.dae" scale="0.8 0.8 0.8"/>
             </geometry>
         </collision>
     </link>
