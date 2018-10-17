@@ -20,54 +20,6 @@
 
   <link name="workspace">
 
-    <!-- Wall -->
-    <collision>
-      <origin xyz="0.88 0.905 1"/>
-      <geometry>
-        <!--without safety margin: box size="3 0.1 3""/-->
-        <box size="3 0.4 3"/>
-      </geometry>
-    </collision>
-    <!-- <visual>
-      <origin xyz="0.88 0.905 1"/>
-      <geometry>
-        <box size="3 0.2 3"/>
-      </geometry>
-      <material name="yellow"/>
-    </visual> -->
-
-    <!-- Stuff on left side -->
-    <collision>
-      <origin xyz="-0.61 0.4825 1"/>
-      <geometry>
-        <!--without safety margin: box size="1 0.745 3"/-->
-        <box size="1.3 1.745 3"/>
-      </geometry>
-    </collision>
-    <!-- <visual>
-      <origin xyz="-0.61 0.4825 1"/>
-      <geometry>
-        <box size="1.1 1.745 3"/>
-      </geometry>
-      <material name="green"/>
-    </visual> -->
-
-    <!-- Shelf on right side -->
-    <collision>
-      <origin xyz="2.02 0.475 1"/>
-      <geometry>
-        <!--without safety margin: box size="1 0.61 3"/-->
-        <box size="1 0.71 3"/>
-      </geometry>
-    </collision>
-    <!-- <visual>
-      <origin xyz="2.02 0.475 1"/>
-      <geometry>
-        <box size="1.1 0.71 3"/>
-      </geometry>
-      <material name="green"/>
-    </visual> -->
-
     <!-- Floor -->
     <collision>
       <origin xyz="0.88 0.38 -0.81"/>
@@ -75,13 +27,13 @@
         <box size="2.5 2.5 0.1"/>
       </geometry>
     </collision>
-    <!-- <visual>
+    <visual>
       <origin xyz="0.88 0.38 -0.81"/>
       <geometry>
         <box size="2.5 2.5 0.1"/>
       </geometry>
       <material name="blue"/>
-    </visual> -->
+    </visual>
 
     <!-- Computer + Operator -->
     <collision>
@@ -91,12 +43,12 @@
         <box size="0.6 1.6 1.2"/>
       </geometry>
     </collision>
-    <!-- <visual>
+    <visual>
       <origin xyz="1.2 0 0.5"/>
       <geometry>
         <box size="0.6 1.6 1.2"/>
       </geometry>
       <material name="orange"/>
-    </visual> -->
+    </visual>
   </link>
 </robot>
