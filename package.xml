@@ -5,7 +5,7 @@
   <description>
     The pr_assets package provides OpenRAVE-specific environments, meshes,
     articulated bodies, robots, and database files used by the Personal
-     Robotics Lab at the University of Washington.
+    Robotics Lab at the University of Washington.
   </description>
   <url type="repository">https://github.com/personalrobotics/pr_assets</url>
   <maintainer email="mkoval@cs.cmu.edu">Michael Koval</maintainer>
