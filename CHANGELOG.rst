@@ -1,12 +1,12 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package pr_ordata
+Changelog for package pr_assets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.3.0 (2015-10-12)
 ------------------
-* Added YCB objects (`#3 <https://github.com/personalrobotics/pr-ordata/issues/3>`)
-* Added colored bins (`#4 <https://github.com/personalrobotics/pr-ordata/issues/4>`_)
-* Added colored blocks (`#2 <https://github.com/personalrobotics/pr-ordata/issues/2>`_)
+* Added YCB objects (`#3 <https://github.com/personalrobotics/pr-assets/issues/3>`)
+* Added colored bins (`#4 <https://github.com/personalrobotics/pr-assets/issues/4>`_)
+* Added colored blocks (`#2 <https://github.com/personalrobotics/pr-assets/issues/2>`_)
 * Added a human model for skeleton tracking
 * Fixed padding on the table.
 * Fixed tag locations for table_clearing objects 

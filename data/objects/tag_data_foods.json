@@ -1,6 +1,6 @@
 {
   "water_bottle": {
-    "resource": "package://pr_ordata/data/objects/water_bottle.urdf",
+    "resource": "package://pr_assets/data/objects/water_bottle.urdf",
     "name": "water_bottle",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -10,7 +10,7 @@
     ]
   },
   "can": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "can",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -20,7 +20,7 @@
     ]
   },
   "food_item": {
-    "resource": "package://pr_ordata/data/objects/food_item.urdf",
+    "resource": "package://pr_assets/data/objects/food_item.urdf",
     "name": "food_item",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],

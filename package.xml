@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
-  <name>pr_ordata</name>
+  <name>pr_assets</name>
   <version>0.3.0</version>
   <description>
-    The pr_ordata package provides OpenRAVE-specific environments, meshes,
+    The pr_assets package provides OpenRAVE-specific environments, meshes,
     articulated bodies, robots, and database files used by the Personal
     Robotics Lab at Carnegie Mellon University.
   </description>
-  <url type="repository">https://github.com/personalrobotics/pr-ordata</url>
+  <url type="repository">https://github.com/personalrobotics/pr-assets</url>
   <maintainer email="mkoval@cs.cmu.edu">Michael Koval</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>

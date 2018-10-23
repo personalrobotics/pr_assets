@@ -1,5 +1,5 @@
-# pr_ordata
-pr_ordata is a repository of [OpenRAVE](http://openrave.org/) resources used by
+# pr_assets
+pr_assets is a repository of [OpenRAVE](http://openrave.org/) resources used by
 the [Personal Robotics Lab](https://personalrobotics.ri.cmu.edu/) in the
 [Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon
 University](http://www.cmu.edu/). Primarily, this includes a repository of
@@ -66,7 +66,7 @@ infeasible trajectories.
 
 ## Contributors
 
-pr_ordata was developed by the [Personal Robotics Lab](https://personalrobotics.ri.cmu.edu)
+pr_assets was developed by the [Personal Robotics Lab](https://personalrobotics.ri.cmu.edu)
 in the [Robotics Institute](http://ri.cmu.edu) at [Carnegie Mellon University](http://www.cmu.edu).
 The packaging and conventions listed above were developed collaboratively by
 [Michael Koval](http://mkoval.org) and [Aaron Walsman](http://www.ri.cmu.edu/person.html?person_id=3158).
