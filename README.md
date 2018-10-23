@@ -1,7 +1,6 @@
 # pr_assets
 pr_assets is a repository of [OpenRAVE](http://openrave.org/) resources used by
 the [Personal Robotics Lab](https://personalrobotics.ri.cmu.edu/) in the
-[Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon
 Primarily, this includes a repository of
 meshes and [KinBody XML](http://openrave.programmingvision.com/wiki/index.php/Format:XML)
 specifications for objects commonly encountered by HERB and ADA.
