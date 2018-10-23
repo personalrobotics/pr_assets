@@ -7,7 +7,7 @@
     articulated bodies, robots, and database files used by the Personal
     Robotics Lab at Carnegie Mellon University.
   </description>
-  <url type="repository">https://github.com/personalrobotics/pr-assets</url>
+  <url type="repository">https://github.com/personalrobotics/pr_assets</url>
   <maintainer email="mkoval@cs.cmu.edu">Michael Koval</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
