@@ -1,6 +1,6 @@
 {
   "water_bottle": {
-    "resource": "package://pr_ordata/data/objects/water_bottle.urdf",
+    "resource": "package://pr_assets/data/objects/water_bottle.urdf",
     "name": "water_bottle",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -10,7 +10,7 @@
     ]
   },
   "can": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "can",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -20,7 +20,7 @@
     ]
   },
   "can_coke": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "coke",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -30,7 +30,7 @@
     ]
   },
   "can_diet_coke": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "diet_coke",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -40,7 +40,7 @@
     ]
   },
   "can_diet_seven_up": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "diet_seven_up",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -50,7 +50,7 @@
     ]
   },
   "can_ginger_ale": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "ginger_ale",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -60,7 +60,7 @@
     ]
   },
   "can_talking_rain_peach_nectarine": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "talking_rain_peach_nectarine",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -70,7 +70,7 @@
     ]
   },
   "can_sanpellegrino_blood_orange": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "sanpellegrino_blood_orange",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -80,7 +80,7 @@
     ]
   },
   "can_diet_coke_small": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "diet_coke_small",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -90,7 +90,7 @@
     ]
   },
   "can_dry_sparkling_vanilla_bean": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "dry_sparkling_vanilla_bean",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
@@ -100,7 +100,7 @@
     ]
   },
   "can_izze_fusions_lemon_lime": {
-    "resource": "package://pr_ordata/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "izze_fusions_lemon_lime",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
