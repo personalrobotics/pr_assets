@@ -1,0 +1,14 @@
+<robot name="oven">
+  <link name="oven">
+    <collision>
+      <geometry>
+        <mesh filename="oven.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="oven.stl" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

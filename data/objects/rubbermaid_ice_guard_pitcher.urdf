@@ -7,8 +7,11 @@
     </collision>
     <visual>
       <geometry>
-        <mesh filename="rubbermaid_ice_guard_pitcher_mesh.stl" />
+        <mesh filename="new_pitcher.stl" />
       </geometry>
+      <material name="gray">
+        <color rgba="0.72 0.45 0.2 1.0"/>
+      </material>
     </visual>
   </link>
 </robot>
