@@ -8,6 +8,7 @@ Changelog for package pr_assets
 * Added colored bins (`#4 <https://github.com/personalrobotics/pr_assets/issues/4>`_)
 * Added colored blocks (`#2 <https://github.com/personalrobotics/pr_assets/issues/2>`_)
 * Added a human model for skeleton tracking
+* Added a face model for face detection (#41 https://github.com/personalrobotics/pr_assets/pull/41)
 * Fixed padding on the table.
 * Fixed tag locations for table_clearing objects 
 * Contributors: Aaron Johnson, Aaron Walsman, Clint Liddick, Jennifer King, Michael Koval, Shushman
