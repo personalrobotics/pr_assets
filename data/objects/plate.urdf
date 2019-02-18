@@ -6,10 +6,10 @@
         <mesh filename="plate.stl" />
       </geometry>
     </collision>
-    <!-- <visual>
+    <visual>
       <geometry>
         <mesh filename="plate.stl" />
       </geometry>
-    </visual> -->
+    </visual>
   </link>
 </robot>
