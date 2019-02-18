@@ -13,7 +13,7 @@
         <box size="1.52 0.76 0.042"/>
       </geometry>
       <material name="gray">
-        <color rgba="0.8 0.8 0.8 1"/>
+        <color rgba="0.8 0.8 0.8 1.0"/>
       </material>
     </visual>
     <!-- Table Legs -->
