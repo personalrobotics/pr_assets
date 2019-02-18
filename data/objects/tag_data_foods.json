@@ -30,7 +30,7 @@
     ]
   },
   "mouth": {
-    "resource": "package://pr_ordata/data/objects/tom.urdf",
+    "resource": "package://pr_assets/data/objects/tom.urdf",
     "name": "mouth",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
