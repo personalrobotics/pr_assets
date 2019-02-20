@@ -79,6 +79,26 @@
       [0.0, 0.0, 0.0, 1.0]
     ]
   },
+  "can_sanpellegrino_lemon": {
+    "resource": "package://pr_assets/data/objects/can.urdf",
+    "name": "sanpellegrino_lemon",
+    "offset": [
+      [1.0, 0.0, 0.0, 0.0],
+      [0.0, 1.0, 0.0, 0.0],
+      [0.0, 0.0, 1.0, 0.0],
+      [0.0, 0.0, 0.0, 1.0]
+    ]
+  },
+  "can_sanpellegrino_clementine": {
+    "resource": "package://pr_assets/data/objects/can.urdf",
+    "name": "sanpellegrino_clementine",
+    "offset": [
+      [1.0, 0.0, 0.0, 0.0],
+      [0.0, 1.0, 0.0, 0.0],
+      [0.0, 0.0, 1.0, 0.0],
+      [0.0, 0.0, 0.0, 1.0]
+    ]
+  },
   "can_diet_coke_small": {
     "resource": "package://pr_assets/data/objects/can.urdf",
     "name": "diet_coke_small",
