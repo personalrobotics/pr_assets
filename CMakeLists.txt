@@ -23,6 +23,6 @@ if(${openrave_catkin_FOUND})
       DESTINATION "${CATKIN_PACKAGE_SHARE_DESTINATION}/data"
   )
 else(${openrave_catkin_FOUND})
-  message(WARNING "Unable to find openrave_catkin. You will have to manually"
+  message(AUTHOR_WARNING "Unable to find openrave_catkin. You will have to manually"
                   " add these models to your OpenRAVE_DATA path.")
 endif(${openrave_catkin_FOUND})
