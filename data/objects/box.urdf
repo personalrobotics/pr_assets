@@ -3,16 +3,16 @@
     <collision>
       <origin xyz="0 0 0" />
       <geometry>
-        <box size="0.2 0.29 0.11" />
+        <box size="0.4 0.4 0.4" />
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" />
       <material name="c">
-        <color rgba="0 0 1.0 1.0" />
+        <color rgba="0.65 0.7 0.7 1.0" />
       </material>
       <geometry>
-        <box size="0.2 0.29 0.11" />
+        <box size="0.4 0.4 0.4" />
       </geometry>
     </visual>
   </link>
