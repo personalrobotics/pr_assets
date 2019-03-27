@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="RandomPolygons_planar_env">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="RandomPolygons_planar_env.dae" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="RandomPolygons_planar_env.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

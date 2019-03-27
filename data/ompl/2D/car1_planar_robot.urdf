@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="car1_planar_robot">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="car1_planar_robot.dae" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="car1_planar_robot.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
