@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="alpha_env-1.1">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="alpha_env-1.1.dae" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="alpha_env-1.1.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
