@@ -5,6 +5,9 @@
             <geometry>
                 <mesh filename="Apartment_env.dae" scale="1 1 1"/>
             </geometry>
+            <material name="gray">
+                <color rgba="1.0 1.0 0.76 0.4"/>
+            </material>
         </visual>
         <collision>
             <geometry>
@@ -13,3 +16,7 @@
         </collision>
     </link>
 </robot>
+
+
+
+<!-- 1.0 1.0 0.76 0.4 -->
