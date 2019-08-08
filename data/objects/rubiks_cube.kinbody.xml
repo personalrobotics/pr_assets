@@ -1,0 +1,9 @@
+<KinBody name="rubiks_cube">
+  <Body type="static" name="rubiks_cube">
+    <Geom type="box">
+      <Translation>0 0 0</Translation>
+      <Extents>0.0285 0.0285 0.0285</Extents>
+      <DiffuseColor>0 0 1.0</DiffuseColor>
+    </Geom>
+  </Body>
+</KinBody>

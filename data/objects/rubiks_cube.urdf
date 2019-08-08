@@ -1,0 +1,19 @@
+<robot name="rubiks_cube">
+  <link name="rubiks_cube">
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.057 0.057 0.057" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" />
+      <material name="c">
+        <color rgba="0 0 1.0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.057 0.057 0.057" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
