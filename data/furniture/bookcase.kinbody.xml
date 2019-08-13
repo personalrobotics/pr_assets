@@ -72,6 +72,7 @@
   </Body>
 
   <Body name="padding_bookcase" type="static">
+    
     <!-- Side walls -->
     <Geom type="box" modifiable="false">
       <AmbientColor>0.968 0.901 0.709</AmbientColor>
@@ -87,6 +88,7 @@
       <Translation>0.368 0.0 0.0</Translation>
       <Transparency>1.0</Transparency>
     </Geom>
+    
     <!-- Top and bottom walls -->
     <Geom type="box" modifiable="false">
       <AmbientColor>0.968 0.901 0.709</AmbientColor>
@@ -102,7 +104,9 @@
       <Translation>0.0 0.72 0.0</Translation>
       <Transparency>1.0</Transparency>
     </Geom>
-    <!-- Horizontal shelf inserts -->
+
+
+    <!-- Horizontal Inserts (3 from the top) -->
     <Geom type="box" modifiable="false">
       <AmbientColor>0.968 0.901 0.709</AmbientColor>
       <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
@@ -124,7 +128,9 @@
       <Translation>0.0 -0.35125 0.0</Translation>
       <Transparency>1.0</Transparency>
     </Geom>
-    <!-- Vertical shelf inserts -->
+
+
+<!-- Vertical Inserts (3 in the center) -->
     <Geom type="box" modifiable="false">
       <AmbientColor>0.968 0.901 0.709</AmbientColor>
       <DiffuseColor>0.968 0.901 0.709</DiffuseColor>
