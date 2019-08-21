@@ -1,0 +1,19 @@
+<robot name="magnet_block">
+  <link name="magnet_block">
+    <collision>
+      <origin xyz="0 0 0.029" />
+      <geometry>
+        <box size="0.058 0.058 0.058" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.029" />
+      <material name="c">
+        <color rgba="0 0 1.0 1.0" />
+      </material>
+      <geometry>
+        <box size="0.058 0.058 0.058" />
+      </geometry>
+    </visual>
+  </link>
+</robot>
