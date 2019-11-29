@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="coffee">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="coffee.stl" scale="0.03 0.03 0.03"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="coffee.stl" scale="0.03 0.03 0.03"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

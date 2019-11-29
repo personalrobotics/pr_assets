@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="Dictionary">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="Dictionary.STL" scale="0.002 0.002 0.002"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="Dictionary.STL" scale="0.002 0.002 0.002"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
