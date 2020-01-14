@@ -1,0 +1,48 @@
+<robot name="uw_demo_table">
+  <link name="base_link">
+    <!-- NOTE: Collision geometry is simplified: just three boxes. -->
+    <!-- Tabletop Collision Geometry -->
+    <collision>
+      <origin xyz="0 0 0.733425"/>
+      <geometry>
+        <box size="1.6 0.8001 0.03175"/>
+      </geometry>
+    </collision>
+    <!-- Left Leg Collision Geometry -->
+    <collision>
+      <origin xyz="0.7111 0 0.358775"/>
+      <geometry>
+        <box size="0.1778 0.8001 0.71755"/>
+      </geometry>
+    </collision>
+    <!-- Right Leg Collision Geometry -->
+    <collision>
+      <origin xyz="-0.7111 0 0.358775"/>
+      <geometry>
+      <box size="0.1778 0.8001 0.71755"/>
+      </geometry>
+    </collision>
+    <!-- NOTE: Visual Geometry is more detailed than collision geometry. -->
+    <!-- Tabletop Visual Geometry -->
+    <visual>
+      <origin xyz="0 0 0.733425"/>
+      <geometry>
+        <box size="1.6 0.8001 0.03175"/>
+      </geometry>
+    </visual>
+    <!-- Left Leg Visual Geometry -->
+    <visual>
+      <origin xyz="0.7111 0 0.358775"/>
+      <geometry>
+        <box size="0.1778 0.8001 0.71755"/>
+      </geometry>
+    </visual>
+    <!-- Right Leg Visual Geometry -->
+    <visual>
+      <origin xyz="-0.7111 0 0.358775"/>
+      <geometry>
+      <box size="0.1778 0.8001 0.71755"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
