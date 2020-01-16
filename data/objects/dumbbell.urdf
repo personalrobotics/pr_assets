@@ -1,0 +1,49 @@
+<robot name="dumbbell">
+  <link name="base_link">
+    <collision>
+      <origin xyz="0 0 0.0285" />
+      <geometry>
+        <box size="0.1206 0.1206 0.0570" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.0285" />
+      <material name="c">
+        <color rgba="0.65 0.7 0.7 1.0" />
+      </material>
+      <geometry>
+        <box size="0.1206 0.1206 0.0570" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.1075" />
+      <geometry>
+        <cylinder length="0.101" radius="0.025" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.0 0.0 0.1075" />
+      <material name="c">
+        <color rgba="0.65 0.7 0.7 1.0" />
+      </material>
+      <geometry>
+        <cylinder length="0.101" radius="0.025" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.1865" />
+      <geometry>
+        <box size="0.1206 0.1206 0.0570" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.1865" />
+      <material name="c">
+        <color rgba="0.65 0.7 0.7 1.0" />
+      </material>
+      <geometry>
+        <box size="0.1206 0.1206 0.0570" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

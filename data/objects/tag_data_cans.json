@@ -10,7 +10,7 @@
     ]
   },
   "can": {
-    "resource": "package://pr_assets/data/objects/can.urdf",
+    "resource": "package://pr_assets/data/objects/dumbbell.urdf",
     "name": "can",
     "offset": [
       [1.0, 0.0, 0.0, 0.0],
