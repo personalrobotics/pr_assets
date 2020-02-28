@@ -3,7 +3,7 @@
     <!-- NOTE: Collision geometry is simplified: just three boxes. -->
     <!-- Tabletop Collision Geometry -->
     <collision>
-      <origin xyz="0 0 0.733425"/>
+      <origin xyz="0 0 0.7206"/>
       <geometry>
         <box size="1.6 0.8001 0.03175"/>
       </geometry>
@@ -25,7 +25,7 @@
     <!-- NOTE: Visual Geometry is more detailed than collision geometry. -->
     <!-- Tabletop Visual Geometry -->
     <visual>
-      <origin xyz="0 0 0.733425"/>
+      <origin xyz="0 0 0.7206"/>
       <geometry>
         <box size="1.6 0.8001 0.03175"/>
       </geometry>
