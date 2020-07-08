@@ -19,7 +19,7 @@
     <collision>
       <origin xyz="-0.7444 0 0.16588"/>
       <geometry>
-        <box size="0.06 0.62 0.3317"/>
+        <box size="0.06 0.62 0.33176"/>
       </geometry>
     </collision>
     <!-- NOTE: Visual Geometry is same as (simple) collision geometry. -->
@@ -41,7 +41,7 @@
     <visual>
       <origin xyz="-0.7444 0 0.16588"/>
       <geometry>
-        <box size="0.06 0.62 0.3317"/>
+        <box size="0.06 0.62 0.33176"/>
       </geometry>
     </visual>
   </link>
