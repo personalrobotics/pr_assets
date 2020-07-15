@@ -1,0 +1,18 @@
+<robot name="sniyaz_ceiling">
+  <link name="base_link">
+    <!-- NOTE: Collision geometry is simplified: just a box for the ceiling. -->
+    <collision>
+      <origin xyz="0 0 0.0"/>
+      <geometry>
+        <box size="1.8288 0.381 0.05295"/>
+      </geometry>
+    </collision>
+    <!-- NOTE: Visual Geometry is same as (simple) collision geometry. -->
+    <visual>
+      <origin xyz="0 0 0.0"/>
+      <geometry>
+        <box size="1.8288 0.381 0.05295"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
