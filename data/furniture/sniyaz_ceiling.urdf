@@ -4,14 +4,14 @@
     <collision>
       <origin xyz="0 0 0.0"/>
       <geometry>
-        <box size="1.8288 0.381 0.05295"/>
+        <box size="3.0 3.0 0.05295"/>
       </geometry>
     </collision>
     <!-- NOTE: Visual Geometry is same as (simple) collision geometry. -->
     <visual>
       <origin xyz="0 0 0.0"/>
       <geometry>
-        <box size="1.8288 0.381 0.05295"/>
+        <box size="3.0 3.0 0.05295"/>
       </geometry>
     </visual>
   </link>
