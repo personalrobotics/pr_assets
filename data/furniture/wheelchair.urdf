@@ -11,7 +11,7 @@
                 <mesh filename="package://pr_assets/data/furniture/wheelchair.dae" scale="1 1 1"/>
             </geometry>
             <material name="aluminium">
-                <color rgba="${211/255} ${211/255} ${211/255} 1.0"/>
+                <color rgba="0.827450980392156 0.827450980392156 0.827450980392156 1.0"/>
             </material>
         </visual>
         <collision>
