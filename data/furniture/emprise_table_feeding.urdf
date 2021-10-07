@@ -1,0 +1,84 @@
+<robot name="conference_table">
+  <link name="base_link">
+    <!-- Tabletop -->
+    <collision>
+      <origin xyz="0 0 0.715"/>
+      <geometry>
+        <box size="1.52 0.91 0.03"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.715"/>
+      <geometry>
+        <box size="1.52 0.91 0.03"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.8 0.8 0.8 1.0"/>
+      </material>
+    </visual>
+    <!-- left back table legs -->
+    <collision>
+      <origin xyz="-0.73 0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.73 0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- right back table legs -->
+    <collision>
+      <origin xyz="0.73 0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.73 0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- left front table legs -->
+    <collision>
+      <origin xyz="-0.73 -0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.73 -0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+    <!-- right front table legs -->
+    <collision>
+      <origin xyz="0.73 -0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.73 -0.42 0.35"/>
+      <geometry>
+        <box size="0.04 0.03 0.70"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>
